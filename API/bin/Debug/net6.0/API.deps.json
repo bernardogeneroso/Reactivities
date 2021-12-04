@@ -9,6 +9,7 @@
       "API/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
+          "Humanizer.Core": "2.8.26",
           "Microsoft.EntityFrameworkCore.Design": "6.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
