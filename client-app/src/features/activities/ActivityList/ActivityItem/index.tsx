@@ -1,23 +1,19 @@
-import React, { memo, SyntheticEvent, useState } from "react";
+import { SyntheticEvent, useState } from "react";
+import { observer } from "mobx-react-lite";
 import Button from "../../../../app/components/Button";
 
 import { Activity } from "../../../../app/models/activity";
+import useStore from "../../../../app/stores/useStore";
 
 import { Container } from "./styles";
 
 interface ActivityItemProps {
   activity: Activity;
-  submitting: boolean;
-  handleSelectActivity: (id?: string) => void;
-  handleRemoveActivity: (id: string) => void;
 }
 
-function ActivityItem({
-  activity,
-  submitting,
-  handleSelectActivity,
-  handleRemoveActivity,
-}: ActivityItemProps) {
+function ActivityItem({ activity }: ActivityItemProps) {
+  const { activityStore } = useStore();
+
   const [target, setTarge] = useState("");
 
   function handleDeleteActivity(
@@ -25,7 +21,7 @@ function ActivityItem({
     id: string
   ) {
     setTarge(e.currentTarget.name);
-    handleRemoveActivity(id);
+    activityStore.deleteActivity(id);
   }
 
   return (
@@ -48,13 +44,13 @@ function ActivityItem({
             name={activity.id}
             situation="negative"
             onClick={(event) => handleDeleteActivity(event, activity.id)}
-            loading={target === activity.id && submitting}
+            loading={target === activity.id && activityStore.submitting}
           >
             Delete
           </Button>
           <Button
             situation="default"
-            onClick={() => handleSelectActivity(activity.id)}
+            onClick={() => activityStore.selectActivity(activity.id)}
           >
             View
           </Button>
@@ -64,4 +60,4 @@ function ActivityItem({
   );
 }
 
-export default memo(ActivityItem);
+export default observer(ActivityItem);

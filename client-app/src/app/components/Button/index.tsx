@@ -1,10 +1,10 @@
-import React, { ButtonHTMLAttributes } from "react";
+import { ButtonHTMLAttributes, ReactNode } from "react";
 import Loader from "react-loader-spinner";
 
 import { Container } from "./styles";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
-  children: React.ReactNode;
+  children: ReactNode;
   situation: "positive" | "negative" | "none" | "default";
   loading?: boolean;
 };

@@ -5,11 +5,14 @@ import reportWebVitals from "./reportWebVitals";
 
 import "semantic-ui-css/semantic.min.css";
 import GlobalStyles from "./app/styles/global";
+import { StoreProvider } from "./app/stores";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <GlobalStyles />
+    <StoreProvider>
+      <App />
+      <GlobalStyles />
+    </StoreProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -1,14 +1,13 @@
 import React from "react";
 
 import Button from "../components/Button";
+import useStore from "../stores/useStore";
 
 import { Container } from "../styles/NavBar";
 
-interface NavBarProps {
-  handleOpenFormEdit: () => void;
-}
+export default function Navbar() {
+  const { activityStore } = useStore();
 
-export default function Navbar({ handleOpenFormEdit }: NavBarProps) {
   return (
     <Container>
       <nav>
@@ -22,7 +21,10 @@ export default function Navbar({ handleOpenFormEdit }: NavBarProps) {
             <a href="#">Activities</a>
           </div>
           <div className="cover">
-            <Button situation="positive" onClick={() => handleOpenFormEdit()}>
+            <Button
+              situation="positive"
+              onClick={() => activityStore.openForm()}
+            >
               Create Activity
             </Button>
           </div>

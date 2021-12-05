@@ -1,39 +1,29 @@
-import React from "react";
+import { observer } from "mobx-react-lite";
 import { useForm } from "react-hook-form";
 
 import { Activity } from "../../../app/models/activity";
 
 import Button from "../../../app/components/Button";
+import useStore from "../../../app/stores/useStore";
 
 import { Container } from "./styles";
 
-interface ActivityFormProps {
-  selectedActivity: Activity | undefined;
-  submitting: boolean;
-  handleToggleFormEdit: () => void;
-  handleCreateOrEditActivity: (activity: Activity) => void;
-}
+export default observer(function ActivityForm() {
+  const { activityStore } = useStore();
+  const { selectedActivity, createActivity, updateActivity } = activityStore;
 
-export default function ActivityForm({
-  selectedActivity,
-  submitting,
-  handleToggleFormEdit,
-  handleCreateOrEditActivity,
-}: ActivityFormProps) {
   const { register, handleSubmit: onSubmit } = useForm<Omit<Activity, "id">>();
 
   function handleSubmit(data: Omit<Activity, "id">) {
-    if (selectedActivity) {
-      handleCreateOrEditActivity({
-        id: selectedActivity.id,
-        ...data,
-      });
-    } else {
-      handleCreateOrEditActivity({
-        id: "",
-        ...data,
-      });
-    }
+    selectedActivity
+      ? updateActivity({
+          id: selectedActivity.id,
+          ...data,
+        })
+      : createActivity({
+          id: "",
+          ...data,
+        });
   }
 
   return (
@@ -79,17 +69,21 @@ export default function ActivityForm({
       </div>
 
       <div className="footer">
-        <Button type="submit" situation="positive" loading={submitting}>
+        <Button
+          type="submit"
+          situation="positive"
+          loading={activityStore.submitting}
+        >
           Submit
         </Button>
         <Button
           type="button"
           situation="none"
-          onClick={() => handleToggleFormEdit()}
+          onClick={() => activityStore.closeForm()}
         >
           Cancel
         </Button>
       </div>
     </Container>
   );
-}
+});

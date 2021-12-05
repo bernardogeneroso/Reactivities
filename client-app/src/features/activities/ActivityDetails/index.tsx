@@ -1,20 +1,15 @@
-import React from "react";
-
 import { Activity } from "../../../app/models/activity";
+import useStore from "../../../app/stores/useStore";
 
 import { Container } from "./styles";
 
 interface ActivityDetailsProps {
   activity: Activity;
-  handleSelectActivity: (id?: string) => void;
-  handleToggleFormEdit: () => void;
 }
 
-export default function ActivityDetails({
-  activity,
-  handleSelectActivity,
-  handleToggleFormEdit,
-}: ActivityDetailsProps) {
+export default function ActivityDetails({ activity }: ActivityDetailsProps) {
+  const { activityStore } = useStore();
+
   return (
     <Container>
       <img
@@ -30,8 +25,12 @@ export default function ActivityDetails({
       </div>
 
       <div className="footer">
-        <button onClick={() => handleToggleFormEdit()}>Edit</button>
-        <button onClick={() => handleSelectActivity()}>Cancel</button>
+        <button onClick={() => activityStore.openForm(activity.id)}>
+          Edit
+        </button>
+        <button onClick={() => activityStore.cancelSelectedActivity()}>
+          Cancel
+        </button>
       </div>
     </Container>
   );
