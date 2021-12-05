@@ -12,6 +12,7 @@ interface ActivityDashboardProps {
   activities: Activity[];
   selectedActivity: Activity | undefined;
   formEdit: boolean;
+  submitting: boolean;
   handleToggleFormEdit: () => void;
   handleSelectActivity: (id?: string) => void;
   handleCreateOrEditActivity: (activity: Activity) => void;
@@ -22,6 +23,7 @@ export default function ActivityDashboard({
   activities,
   selectedActivity,
   formEdit,
+  submitting,
   handleSelectActivity,
   handleToggleFormEdit,
   handleCreateOrEditActivity,
@@ -30,7 +32,12 @@ export default function ActivityDashboard({
   return (
     <Container>
       <ActivityList
-        {...{ activities, handleSelectActivity, handleRemoveActivity }}
+        {...{
+          activities,
+          submitting,
+          handleSelectActivity,
+          handleRemoveActivity,
+        }}
       />
 
       <PanelSticky>
@@ -47,6 +54,7 @@ export default function ActivityDashboard({
           <ActivityForm
             {...{
               selectedActivity,
+              submitting,
               handleToggleFormEdit,
               handleCreateOrEditActivity,
             }}

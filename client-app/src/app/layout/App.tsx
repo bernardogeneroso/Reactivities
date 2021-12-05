@@ -1,13 +1,14 @@
 import React, { useEffect, useState, useCallback } from "react";
-import axios from "axios";
 import { v4 as uuid } from "uuid";
 
+import Loading from "../components/Loading";
+import ActivityDashboard from "../../features/activities/ActivityDashboard";
 import { Activity } from "../models/activity";
+import agent from "../api/agent";
 
 import Navbar from "./NavBar";
 
 import { Container, Content } from "../styles/App";
-import ActivityDashboard from "../../features/activities/ActivityDashboard";
 
 function App() {
   const [activities, setActivities] = useState<Activity[]>([]);
@@ -15,13 +16,19 @@ function App() {
     Activity | undefined
   >(undefined);
   const [formEdit, setFormEdit] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
-    axios
-      .get<Activity[]>("http://localhost:5000/api/activities")
-      .then((res) => {
-        setActivities(res.data);
-      });
+    agent.Activities.list().then((data) => {
+      const receivedActivities: Activity[] = data.map((activity) => ({
+        ...activity,
+        date: activity.date.split("T")[0],
+      }));
+
+      setActivities(receivedActivities);
+      setLoading(false);
+    });
   }, []);
 
   const handleOpenFormEdit = useCallback(() => {
@@ -52,22 +59,49 @@ function App() {
 
   const handleCreateOrEditActivity = useCallback(
     (activity: Activity) => {
+      setSubmitting(true);
+
       if (activity.id) {
-        const index = activities.findIndex((a) => a.id === activity.id);
-        activities[index] = activity;
+        agent.Activities.update(activity).then(() => {
+          const index = activities.findIndex((a) => a.id === activity.id);
+          activities[index] = activity;
+
+          setActivities([...activities]);
+          setSelectedActivity(activity);
+          setSubmitting(false);
+          setFormEdit(false);
+        });
       } else {
         activity.id = uuid();
-        activities.push(activity);
+
+        agent.Activities.create(activity).then(() => {
+          activities.push(activity);
+
+          setActivities([...activities]);
+          setSelectedActivity(activity);
+          setSubmitting(false);
+          setFormEdit(false);
+        });
       }
-      setActivities([...activities]);
-      setSelectedActivity(activity);
     },
     [activities]
   );
 
-  const handleRemoveActivity = useCallback((id: string) => {
-    setActivities((state) => state.filter((a) => a.id !== id));
-  }, []);
+  const handleRemoveActivity = useCallback(
+    (id: string) => {
+      setSubmitting(true);
+
+      agent.Activities.delete(id).then(() => {
+        if (selectedActivity?.id === id) setSelectedActivity(undefined);
+
+        setActivities((state) => state.filter((a) => a.id !== id));
+        setSubmitting(false);
+      });
+    },
+    [selectedActivity?.id]
+  );
+
+  if (loading) return <Loading content="Loading app" />;
 
   return (
     <Container>
@@ -84,6 +118,7 @@ function App() {
               handleSelectActivity,
               handleCreateOrEditActivity,
               handleRemoveActivity,
+              submitting,
             }}
           />
         )}

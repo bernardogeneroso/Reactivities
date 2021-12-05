@@ -9,13 +9,15 @@ import { Container } from "./styles";
 
 interface ActivityFormProps {
   selectedActivity: Activity | undefined;
+  submitting: boolean;
   handleToggleFormEdit: () => void;
   handleCreateOrEditActivity: (activity: Activity) => void;
 }
 
 export default function ActivityForm({
-  handleToggleFormEdit,
   selectedActivity,
+  submitting,
+  handleToggleFormEdit,
   handleCreateOrEditActivity,
 }: ActivityFormProps) {
   const { register, handleSubmit: onSubmit } = useForm<Omit<Activity, "id">>();
@@ -32,8 +34,6 @@ export default function ActivityForm({
         ...data,
       });
     }
-
-    handleToggleFormEdit();
   }
 
   return (
@@ -59,7 +59,7 @@ export default function ActivityForm({
           {...register("category")}
         />
         <input
-          type="text"
+          type="date"
           placeholder="Date"
           defaultValue={selectedActivity?.date}
           {...register("date")}
@@ -79,7 +79,7 @@ export default function ActivityForm({
       </div>
 
       <div className="footer">
-        <Button type="submit" situation="positive">
+        <Button type="submit" situation="positive" loading={submitting}>
           Submit
         </Button>
         <Button

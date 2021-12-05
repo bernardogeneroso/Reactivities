@@ -25,4 +25,9 @@ export const Container = styled.button<ContainerProps>`
   &:hover {
     filter: brightness(0.9);
   }
+
+  div {
+    display: flex;
+    align-items: center;
+  }
 `;

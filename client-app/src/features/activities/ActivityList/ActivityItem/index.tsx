@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo, SyntheticEvent, useState } from "react";
 import Button from "../../../../app/components/Button";
 
 import { Activity } from "../../../../app/models/activity";
@@ -7,15 +7,27 @@ import { Container } from "./styles";
 
 interface ActivityItemProps {
   activity: Activity;
+  submitting: boolean;
   handleSelectActivity: (id?: string) => void;
   handleRemoveActivity: (id: string) => void;
 }
 
-export default function ActivityItem({
+function ActivityItem({
   activity,
+  submitting,
   handleSelectActivity,
   handleRemoveActivity,
 }: ActivityItemProps) {
+  const [target, setTarge] = useState("");
+
+  function handleDeleteActivity(
+    e: SyntheticEvent<HTMLButtonElement>,
+    id: string
+  ) {
+    setTarge(e.currentTarget.name);
+    handleRemoveActivity(id);
+  }
+
   return (
     <Container>
       <header>
@@ -33,8 +45,10 @@ export default function ActivityItem({
 
         <div className="options">
           <Button
+            name={activity.id}
             situation="negative"
-            onClick={() => handleRemoveActivity(activity.id)}
+            onClick={(event) => handleDeleteActivity(event, activity.id)}
+            loading={target === activity.id && submitting}
           >
             Delete
           </Button>
@@ -49,3 +63,5 @@ export default function ActivityItem({
     </Container>
   );
 }
+
+export default memo(ActivityItem);
