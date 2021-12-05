@@ -4,14 +4,16 @@ import { Container } from "./styles";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   children: React.ReactNode;
-  positive?: boolean;
+  situation: "positive" | "negative" | "none" | "default";
 };
 
-export default function Button({ children, positive, ...props }: ButtonProps) {
-  const bgColor = positive ? "#198754" : "#f94d6a";
-
+export default function Button({
+  children,
+  situation = "default",
+  ...props
+}: ButtonProps) {
   return (
-    <Container {...{ bgColor }} {...props}>
+    <Container {...{ situation }} {...props}>
       {children}
     </Container>
   );

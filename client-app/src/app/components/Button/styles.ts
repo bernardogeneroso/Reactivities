@@ -1,8 +1,15 @@
 import styled from "styled-components";
 
 interface ContainerProps {
-  bgColor: string;
+  situation: "positive" | "negative" | "none" | "default";
 }
+
+const colors = {
+  positive: "#4EAC4D",
+  negative: "#f94d6a",
+  none: "#DBDCE1",
+  default: "#0d68f0",
+};
 
 export const Container = styled.button<ContainerProps>`
   border: 0;
@@ -10,7 +17,8 @@ export const Container = styled.button<ContainerProps>`
   border-radius: 0.5rem;
   font-size: 1.4rem;
   color: #fff;
-  background-color: ${(props) => props.bgColor};
+  background-color: ${(props) => colors[props.situation]};
+  color: ${(props) => (props.situation === "none" ? "#000" : "#fff")};
 
   transition: filter 0.2s;
 

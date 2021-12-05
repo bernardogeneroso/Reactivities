@@ -4,7 +4,11 @@ import Button from "../components/Button";
 
 import { Container } from "../styles/NavBar";
 
-export default function Navbar() {
+interface NavBarProps {
+  handleOpenFormEdit: () => void;
+}
+
+export default function Navbar({ handleOpenFormEdit }: NavBarProps) {
   return (
     <Container>
       <nav>
@@ -14,10 +18,13 @@ export default function Navbar() {
         </div>
         <div className="menu">
           <div className="cover">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#">Activities</a>
           </div>
           <div className="cover">
-            <Button positive>Create Activity</Button>
+            <Button situation="positive" onClick={() => handleOpenFormEdit()}>
+              Create Activity
+            </Button>
           </div>
         </div>
       </nav>
