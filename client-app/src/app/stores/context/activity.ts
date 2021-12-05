@@ -29,12 +29,12 @@ export default class ActivityStore {
     try {
       const activities = await agent.Activities.list();
 
-      activities.forEach((activity) => {
-        activity.date = activity.date.split("T")[0];
-        this.activitiesRegister.set(activity.id, activity);
-      });
-
       runInAction(() => {
+        activities.forEach((activity) => {
+          activity.date = activity.date.split("T")[0];
+          this.activitiesRegister.set(activity.id, activity);
+        });
+
         this.loadingInitial = false;
       });
     } catch (err) {
@@ -68,6 +68,7 @@ export default class ActivityStore {
 
     try {
       await agent.Activities.create(activity);
+
       runInAction(() => {
         this.activitiesRegister.set(activity.id, activity);
         this.selectedActivity = activity;
