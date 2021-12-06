@@ -1,31 +1,42 @@
-import { useEffect } from "react";
-import { observer } from "mobx-react-lite";
+import { Route, useLocation } from "react-router-dom";
 
-import Loading from "../components/Loading";
 import ActivityDashboard from "../../features/activities/ActivityDashboard";
-import useStore from "../stores/useStore";
+import ActivityForm from "../../features/activities/ActivityForm";
+import ActivityDetails from "../../features/activities/ActivityDetails";
+import Home from "../../features/Home";
 
 import Navbar from "./NavBar";
 
 import { Container, Content } from "../styles/App";
 
 function App() {
-  const { activityStore } = useStore();
-  const { activitiesByDate } = activityStore;
-
-  useEffect(() => {
-    activityStore.loadActivities();
-  }, [activityStore]);
-
-  if (activityStore.loadingInitial) return <Loading content="Loading app" />;
+  const location = useLocation();
 
   return (
     <Container>
-      <Navbar />
+      <Route path="/" component={Home} exact />
 
-      <Content>{activitiesByDate.length > 0 && <ActivityDashboard />}</Content>
+      <Route
+        path="/(.+)"
+        render={() => (
+          <>
+            <Navbar />
+
+            <Content>
+              <Route path="/" component={Home} exact />
+              <Route path="/activities" component={ActivityDashboard} exact />
+              <Route path="/activities/:id" component={ActivityDetails} />
+              <Route
+                key={location.key}
+                path={["/createActivity", "/manage/:id"]}
+                component={ActivityForm}
+              />
+            </Content>
+          </>
+        )}
+      />
     </Container>
   );
 }
 
-export default observer(App);
+export default App;

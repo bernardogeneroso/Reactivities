@@ -1,14 +1,30 @@
-import { Activity } from "../../../app/models/activity";
+import { observer } from "mobx-react-lite";
+import { useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
+
+import Loading from "../../../app/components/Loading";
 import useStore from "../../../app/stores/useStore";
 
 import { Container } from "./styles";
 
-interface ActivityDetailsProps {
-  activity: Activity;
+interface ActivityDetailsParams {
+  id: string;
 }
 
-export default function ActivityDetails({ activity }: ActivityDetailsProps) {
+export default observer(function ActivityDetails() {
   const { activityStore } = useStore();
+  const {
+    selectedActivity: activity,
+    loadActivity,
+    loadingInitial,
+  } = activityStore;
+  const { id } = useParams<ActivityDetailsParams>();
+
+  useEffect(() => {
+    if (id) loadActivity(id);
+  }, [id, loadActivity]);
+
+  if (loadingInitial || !activity) return <Loading />;
 
   return (
     <Container>
@@ -25,13 +41,13 @@ export default function ActivityDetails({ activity }: ActivityDetailsProps) {
       </div>
 
       <div className="footer">
-        <button onClick={() => activityStore.openForm(activity.id)}>
-          Edit
-        </button>
-        <button onClick={() => activityStore.cancelSelectedActivity()}>
-          Cancel
-        </button>
+        <Link to={`/manage/${activity.id}`}>
+          <button>Edit</button>
+        </Link>
+        <Link to={`/activities`}>
+          <button>Cancel</button>
+        </Link>
       </div>
     </Container>
   );
-}
+});

@@ -120,3 +120,7 @@ C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\MediatR.dll
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\MediatR.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

@@ -6,6 +6,7 @@ import { Activity } from "../../../../app/models/activity";
 import useStore from "../../../../app/stores/useStore";
 
 import { Container } from "./styles";
+import { Link } from "react-router-dom";
 
 interface ActivityItemProps {
   activity: Activity;
@@ -48,12 +49,9 @@ function ActivityItem({ activity }: ActivityItemProps) {
           >
             Delete
           </Button>
-          <Button
-            situation="default"
-            onClick={() => activityStore.selectActivity(activity.id)}
-          >
-            View
-          </Button>
+          <Link to={`/activities/${activity.id}`}>
+            <Button situation="default">View</Button>
+          </Link>
         </div>
       </div>
     </Container>

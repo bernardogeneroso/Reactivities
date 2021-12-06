@@ -1,26 +1,26 @@
 import { observer } from "mobx-react-lite";
+import { useEffect } from "react";
 
 import useStore from "../../app/stores/useStore";
 
-import ActivityDetails from "./ActivityDetails";
-import ActivityForm from "./ActivityForm";
+import Loading from "../../app/components/Loading";
 import ActivityList from "./ActivityList";
 
 import { Container, PanelSticky } from "./styles";
 
 export default observer(function ActivityDashboard() {
   const { activityStore } = useStore();
+  const { loadActivities, loadingInitial, activitiesRegister } = activityStore;
+
+  useEffect(() => {
+    if (activitiesRegister.size <= 1) loadActivities();
+  }, [loadActivities, activitiesRegister.size]);
+
+  if (loadingInitial) return <Loading content="Loading app" />;
 
   return (
     <Container>
       <ActivityList />
-
-      <PanelSticky>
-        {activityStore.selectedActivity && !activityStore.formEdit && (
-          <ActivityDetails activity={activityStore.selectedActivity} />
-        )}
-        {activityStore.formEdit && <ActivityForm />}
-      </PanelSticky>
     </Container>
   );
 });
