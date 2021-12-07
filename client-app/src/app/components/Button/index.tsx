@@ -3,9 +3,16 @@ import Loader from "react-loader-spinner";
 
 import { Container } from "./styles";
 
+export type Situations =
+  | "master"
+  | "positive"
+  | "negative"
+  | "none"
+  | "default";
+
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   children: ReactNode;
-  situation: "positive" | "negative" | "none" | "default";
+  situation: Situations;
   loading?: boolean;
 };
 

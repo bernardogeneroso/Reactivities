@@ -5,8 +5,9 @@ import useStore from "../../app/stores/useStore";
 
 import Loading from "../../app/components/Loading";
 import ActivityList from "./ActivityList";
+import ActivityFilters from "./ActivityFilters";
 
-import { Container, PanelSticky } from "./styles";
+import { Container } from "./styles";
 
 export default observer(function ActivityDashboard() {
   const { activityStore } = useStore();
@@ -21,6 +22,7 @@ export default observer(function ActivityDashboard() {
   return (
     <Container>
       <ActivityList />
+      <ActivityFilters />
     </Container>
   );
 });

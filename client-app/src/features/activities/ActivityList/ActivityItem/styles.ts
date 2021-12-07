@@ -3,40 +3,68 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  border-top-left-radius: 0.8rem;
-  border-top-right-radius: 0.8rem;
+  border-radius: 0.8rem;
   background-color: #fff;
-  padding-bottom: 1.2rem;
-  border-bottom: 2px solid #e6e6e6;
-
-  & + div {
-    margin-top: 2rem;
-  }
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 0px 2px;
 
   header {
-    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    border-bottom: 2px solid #f2f1f2;
 
-    h3 {
-      font-size: 1.8rem;
+    div.left-side {
+      img {
+        border-radius: 40px;
+        width: 80px;
+        height: 80px;
+      }
     }
 
-    span.date {
-      font-size: 1.4rem;
-      color: #54575e;
+    div.rest-side {
+      flex: 1;
+
+      h3 {
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+
+      span {
+        font-size: 1.5rem;
+      }
     }
   }
 
   div.content {
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
+    div.local {
+      padding: 1rem;
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
 
-    span {
-      font-weight: 300;
+      span {
+        display: flex;
+        align-items: center;
+
+        font-weight: 500;
+
+        svg {
+          margin-right: 0.6rem;
+        }
+      }
+    }
+
+    div.attendees {
+      padding: 1rem 1rem;
+      background-color: #f2f1f2;
+      color: #7c787a;
     }
   }
 
   div.footer {
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;

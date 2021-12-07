@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\api\\API.csproj": {}
+    "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\api\\API.csproj": {
+    "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\api\\API.csproj",
+        "projectPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\gener\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\api\\obj\\",
+        "outputPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gener\\AppData\\Roaming\\NuGet\\NuGet.Config",

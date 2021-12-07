@@ -6,8 +6,13 @@ export const Container = styled.div`
   flex-direction: column;
 `;
 
-export const Content = styled.div`
+export const Background = styled.div`
   flex: 1;
   background-color: #eaeaea;
-  padding: 2rem;
+`;
+
+export const Content = styled.div`
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-top: 5rem;
 `;

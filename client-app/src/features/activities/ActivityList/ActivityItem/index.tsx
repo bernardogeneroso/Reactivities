@@ -1,5 +1,7 @@
 import { SyntheticEvent, useState } from "react";
 import { observer } from "mobx-react-lite";
+import { FiClock, FiMapPin } from "react-icons/fi";
+
 import Button from "../../../../app/components/Button";
 
 import { Activity } from "../../../../app/models/activity";
@@ -14,6 +16,7 @@ interface ActivityItemProps {
 
 function ActivityItem({ activity }: ActivityItemProps) {
   const { activityStore } = useStore();
+  const { deleteActivity, submitting } = activityStore;
 
   const [target, setTarge] = useState("");
 
@@ -22,19 +25,34 @@ function ActivityItem({ activity }: ActivityItemProps) {
     id: string
   ) {
     setTarge(e.currentTarget.name);
-    activityStore.deleteActivity(id);
+    deleteActivity(id);
   }
 
   return (
     <Container>
       <header>
-        <h3>{activity.title}</h3>
-        <span className="date">{activity.date}</span>
+        <div className="left-side">
+          <img src="/assets/user.png" alt="User" />
+        </div>
+        <div className="rest-side">
+          <h3>{activity.title}</h3>
+          <span>Hosted by Bob</span>
+        </div>
       </header>
 
       <div className="content">
-        <span className="releaseDate">Activity 2 months ago</span>
-        <span className="local">{activity.city}</span>
+        <div className="local">
+          <span className="date">
+            <FiClock />
+            {activity.date}
+          </span>
+          <span className="city">
+            <FiMapPin />
+            {activity.city}
+          </span>
+        </div>
+
+        <div className="attendees">Attendees go here</div>
       </div>
 
       <div className="footer">
@@ -45,7 +63,7 @@ function ActivityItem({ activity }: ActivityItemProps) {
             name={activity.id}
             situation="negative"
             onClick={(event) => handleDeleteActivity(event, activity.id)}
-            loading={target === activity.id && activityStore.submitting}
+            loading={target === activity.id && submitting}
           >
             Delete
           </Button>

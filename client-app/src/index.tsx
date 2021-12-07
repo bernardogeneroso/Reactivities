@@ -10,15 +10,13 @@ import "semantic-ui-css/semantic.min.css";
 import GlobalStyles from "./app/styles/global";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <StoreProvider>
-      <BrowserRouter>
-        <App />
-        <GlobalStyles />
-      </BrowserRouter>
-    </StoreProvider>
-  </React.StrictMode>,
+  <StoreProvider>
+    <BrowserRouter>
+      <App />
+      <GlobalStyles />
+    </BrowserRouter>
+  </StoreProvider>,
   document.getElementById("root")
 );
 
-reportWebVitals(console.log);
+reportWebVitals();

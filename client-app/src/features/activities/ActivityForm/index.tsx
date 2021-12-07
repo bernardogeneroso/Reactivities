@@ -18,13 +18,8 @@ interface ActivityFormParams {
 
 export default observer(function ActivityForm() {
   const { activityStore } = useStore();
-  const {
-    selectedActivity,
-    createActivity,
-    updateActivity,
-    loadActivity,
-    loadingInitial,
-  } = activityStore;
+  const { createActivity, updateActivity, loadActivity, loadingInitial } =
+    activityStore;
   const history = useHistory();
   const { id } = useParams<ActivityFormParams>();
   const [activity, setActivity] = useState<Activity>({} as Activity);

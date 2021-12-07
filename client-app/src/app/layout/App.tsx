@@ -7,7 +7,7 @@ import Home from "../../features/Home";
 
 import Navbar from "./NavBar";
 
-import { Container, Content } from "../styles/App";
+import { Container, Background, Content } from "../styles/App";
 
 function App() {
   const location = useLocation();
@@ -22,16 +22,18 @@ function App() {
           <>
             <Navbar />
 
-            <Content>
-              <Route path="/" component={Home} exact />
-              <Route path="/activities" component={ActivityDashboard} exact />
-              <Route path="/activities/:id" component={ActivityDetails} />
-              <Route
-                key={location.key}
-                path={["/createActivity", "/manage/:id"]}
-                component={ActivityForm}
-              />
-            </Content>
+            <Background>
+              <Content>
+                <Route path="/" component={Home} exact />
+                <Route path="/activities" component={ActivityDashboard} exact />
+                <Route path="/activities/:id" component={ActivityDetails} />
+                <Route
+                  key={location.key}
+                  path={["/createActivity", "/manage/:id"]}
+                  component={ActivityForm}
+                />
+              </Content>
+            </Background>
           </>
         )}
       />
