@@ -45,9 +45,9 @@ export default function Chat() {
 
           <button type="submit">
             <div className="icon">
-              <MdEditNote />
+              <MdEditNote size={20} />
             </div>
-            Add reply
+            <div className="text">Add reply</div>
           </button>
         </form>
       </div>
