@@ -1,6 +1,6 @@
 import { Route, useLocation } from "react-router-dom";
 
-import ActivityDashboard from "../../features/activities/ActivityDashboard";
+import ActivityDashboard from "../../features/activities";
 import ActivityForm from "../../features/activities/ActivityForm";
 import ActivityDetails from "../../features/activities/ActivityDetails";
 import Home from "../../features/Home";

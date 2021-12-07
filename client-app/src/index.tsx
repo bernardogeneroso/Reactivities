@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import App from "./app/layout/App";
 
 import "semantic-ui-css/semantic.min.css";
+import "react-calendar/dist/Calendar.css";
 import GlobalStyles from "./app/styles/global";
 
 ReactDOM.render(

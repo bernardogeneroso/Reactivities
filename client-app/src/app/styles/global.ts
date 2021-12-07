@@ -35,4 +35,11 @@ button {
   font-weight: 400;
   cursor: pointer;
 }
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  border-radius: 0.8rem;
+}
 `;

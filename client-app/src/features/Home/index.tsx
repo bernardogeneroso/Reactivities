@@ -6,10 +6,17 @@ import { Container } from "./styles";
 export default function Home() {
   return (
     <Container>
-      <h1>Home page</h1>
-      <h3>
-        Go to <Link to="/activities">Activities</Link>
-      </h3>
+      <h1>
+        <img src="/assets/logo.png" alt="logo" />
+        Reactivities
+      </h1>
+      <div className="content">
+        <h2>Welcome to Reactivities</h2>
+
+        <Link to="/activities">
+          <button>Take me to the Activities!</button>
+        </Link>
+      </div>
     </Container>
   );
 }
