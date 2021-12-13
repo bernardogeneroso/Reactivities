@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import { Router } from "react-router-dom";
+import { createBrowserHistory } from "history";
 
 import { StoreProvider } from "./app/stores";
 import reportWebVitals from "./reportWebVitals";
@@ -11,12 +12,14 @@ import "react-calendar/dist/Calendar.css";
 import "react-toastify/dist/ReactToastify.css";
 import GlobalStyles from "./app/styles/global";
 
+export const history = createBrowserHistory();
+
 ReactDOM.render(
   <StoreProvider>
-    <BrowserRouter>
+    <Router {...{ history }}>
       <App />
       <GlobalStyles />
-    </BrowserRouter>
+    </Router>
   </StoreProvider>,
   document.getElementById("root")
 );

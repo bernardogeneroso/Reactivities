@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Application\\Application.csproj": {}
+    "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Application\\Application.csproj": {
+    "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\gener\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Application\\obj\\",
+        "outputPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\gener\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,18 +22,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.org": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Domain\\Domain.csproj"
+              "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Persistence\\Persistence.csproj"
+              "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -84,21 +79,17 @@
         }
       }
     },
-    "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Domain\\Domain.csproj": {
+    "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\gener\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\gener\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,8 +97,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.org": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -143,21 +133,17 @@
         }
       }
     },
-    "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\gener\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\gener\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -165,15 +151,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.org": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Domain\\Domain.csproj"
+              "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }

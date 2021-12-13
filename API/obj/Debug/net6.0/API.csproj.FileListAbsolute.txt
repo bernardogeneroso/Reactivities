@@ -127,3 +127,6 @@ C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Medi
 C:\Users\gener\Documents\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\gener\Documents\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\gener\Documents\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
