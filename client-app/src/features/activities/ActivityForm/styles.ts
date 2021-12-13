@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.form`
+export const Container = styled.div`
   grid-area: activityForm;
   display: flex;
   flex-direction: column;
@@ -9,22 +9,16 @@ export const Container = styled.form`
   border-radius: 0.8rem;
   padding: 1.4rem;
 
+  h2 {
+    font-size: 1.4rem;
+    color: #03aba4;
+    text-transform: uppercase;
+  }
+
   div.content {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-
-    input,
-    textarea {
-      padding: 1rem;
-      border: 1px solid #e6e6e6;
-      border-radius: 0.5rem;
-      outline: none;
-
-      &::placeholder {
-        color: #d9d7d7;
-      }
-    }
   }
 
   div.footer {

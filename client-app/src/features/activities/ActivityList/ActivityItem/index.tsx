@@ -1,6 +1,7 @@
 import { SyntheticEvent, useState } from "react";
 import { observer } from "mobx-react-lite";
 import { FiClock, FiMapPin } from "react-icons/fi";
+import { format } from "date-fns";
 
 import Button from "../../../../app/components/Button";
 
@@ -44,7 +45,7 @@ function ActivityItem({ activity }: ActivityItemProps) {
         <div className="local">
           <span className="date">
             <FiClock />
-            {activity.date}
+            {format(activity.date!, "dd MMM yyyy h:mm aa")}
           </span>
           <span className="city">
             <FiMapPin />

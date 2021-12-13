@@ -1,21 +1,28 @@
 import { FiInfo, FiCalendar, FiMapPin } from "react-icons/fi";
+import { format } from "date-fns";
+
+import { Activity } from "../../../../app/models/activity";
 
 import { Container } from "./styles";
 
-export default function Information() {
+interface InformationProps {
+  activity: Activity;
+}
+
+export default function Information({ activity }: InformationProps) {
   return (
     <Container>
       <div className="content">
         <FiInfo />
-        Test
+        {activity.description}
       </div>
       <div className="content">
         <FiCalendar />
-        2021-01-10
+        {format(activity.date!, "dd MMM yyyy")}
       </div>
       <div className="content">
         <FiMapPin />
-        Test,Test
+        {activity.venue}, {activity.city}
       </div>
     </Container>
   );

@@ -1,3 +1,10 @@
 {
-  "cSpell.ignoreWords": ["Roboto", "Unauthorised", "notaguid", "toastify"]
+  "cSpell.ignoreWords": [
+    "Formik",
+    "Roboto",
+    "Unauthorised",
+    "datepicker",
+    "notaguid",
+    "toastify"
+  ]
 }

@@ -29,6 +29,10 @@ export const Container = styled.button<ContainerProps>`
     filter: brightness(0.9);
   }
 
+  &:disabled {
+    filter: brightness(0.85);
+  }
+
   div {
     display: flex;
     align-items: center;

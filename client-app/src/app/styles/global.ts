@@ -42,4 +42,20 @@ button {
   box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
   border-radius: 0.8rem;
 }
+
+.react-datepicker-wrapper, input {
+  width: 100%;
+}
+
+.react-datepicker {
+  font-size: 1rem;
+}
+
+.ui.dropdown .menu>.item {
+  font-size: 1.6rem;
+}
+
+.ui.dropdown .menu .active.item {
+  font-weight: 500;
+}
 `;
