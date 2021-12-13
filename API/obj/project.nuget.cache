@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "SnHXJTDoGsUzP7jYWsMqsgPBuWq50SxkO0x/WLuaXB72yZia2RxkvfTiZ8Sx89tazpnjq8bGg2XX0M4N9bntfw==",
+  "dgSpecHash": "up3L0oTWhiEMDUJVEFjwIqGONYydf5DWBKera1CmGltXRDY+jFvKDKV3O3w+s5o+ZnSlkNjN1XxwQPYh2ZsGkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gener\\OneDrive\\Documentos\\GitHub\\Reactivities\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gener\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\gener\\.nuget\\packages\\fluentvalidation\\10.3.5\\fluentvalidation.10.3.5.nupkg.sha512",
+    "C:\\Users\\gener\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.5\\fluentvalidation.aspnetcore.10.3.5.nupkg.sha512",
+    "C:\\Users\\gener\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.5\\fluentvalidation.dependencyinjectionextensions.10.3.5.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

@@ -1,9 +1,11 @@
 import { Route, useLocation } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 
 import ActivityDashboard from "../../features/activities";
 import ActivityForm from "../../features/activities/ActivityForm";
 import ActivityDetails from "../../features/activities/ActivityDetails";
 import Home from "../../features/Home";
+import TestErrors from "../../features/errors/TestError";
 
 import Navbar from "./NavBar";
 
@@ -32,11 +34,14 @@ function App() {
                   path={["/createActivity", "/manage/:id"]}
                   component={ActivityForm}
                 />
+                <Route path="/errors" component={TestErrors} />
               </Content>
             </Background>
           </>
         )}
       />
+
+      <ToastContainer position="bottom-center" hideProgressBar />
     </Container>
   );
 }

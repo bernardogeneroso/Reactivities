@@ -19,6 +19,9 @@ export default function Navbar() {
             <Link to="/activities">Activities</Link>
           </div>
           <div className="cover">
+            <Link to="/errors">Errors</Link>
+          </div>
+          <div className="cover">
             <Link to="/createActivity">
               <Button situation="positive">Create Activity</Button>
             </Link>
