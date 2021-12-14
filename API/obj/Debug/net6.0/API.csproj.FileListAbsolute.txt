@@ -130,3 +130,11 @@ C:\Users\gener\Documents\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidati
 C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
