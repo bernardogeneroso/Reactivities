@@ -1,10 +1,16 @@
+import { observer } from "mobx-react-lite";
 import { Link } from "react-router-dom";
+import { Dropdown, Image } from "semantic-ui-react";
 
 import Button from "../components/Button";
+import useStore from "../stores/useStore";
 
 import { Container } from "../styles/NavBar";
 
-export default function Navbar() {
+export default observer(function Navbar() {
+  const { userStore } = useStore();
+  const { user, isLoggedIn, logout } = userStore;
+
   return (
     <Container>
       <nav>
@@ -27,7 +33,28 @@ export default function Navbar() {
             </Link>
           </div>
         </div>
+        {isLoggedIn && user && (
+          <div className="user">
+            <Image
+              src={user?.image || "/assets/user.png"}
+              alt={user?.userName}
+              avatar
+              spaced="right"
+            />
+            <Dropdown pointing="top left" text={user?.displayName}>
+              <Dropdown.Menu>
+                <Dropdown.Item
+                  as={Link}
+                  to={`/profile/${user?.userName}`}
+                  text="My profile"
+                  icon="user"
+                />
+                <Dropdown.Item onClick={logout} text="Logout" icon="power" />
+              </Dropdown.Menu>
+            </Dropdown>
+          </div>
+        )}
       </nav>
     </Container>
   );
-}
+});

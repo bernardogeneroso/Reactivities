@@ -80,7 +80,7 @@ export default observer(function ActivityForm() {
     }
   }
 
-  if (loadingInitial) return <Loading content="Loading app" />;
+  if (loadingInitial) return <Loading content="Loading activity on form..." />;
 
   return (
     <Container>

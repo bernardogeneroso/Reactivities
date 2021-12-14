@@ -9,13 +9,13 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   label?: string;
 }
 
-export default function Input(props: InputProps) {
+export default function Input({ type = "text", ...props }: InputProps) {
   const [field, meta] = useField(props.name);
 
   return (
     <Container error={meta.touched && !!meta.error}>
       <label htmlFor="">{props.label}</label>
-      <input {...field} {...props} />
+      <input {...field} {...props} {...{ type }} />
       {meta.touched && meta.error ? <span>{meta.error}</span> : null}
     </Container>
   );

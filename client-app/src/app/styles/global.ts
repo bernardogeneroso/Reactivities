@@ -58,4 +58,9 @@ button {
 .ui.dropdown .menu .active.item {
   font-weight: 500;
 }
+
+.ui.label, .ui.labels .label {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
 `;

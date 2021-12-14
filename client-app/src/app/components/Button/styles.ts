@@ -36,5 +36,6 @@ export const Container = styled.button<ContainerProps>`
   div {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 `;

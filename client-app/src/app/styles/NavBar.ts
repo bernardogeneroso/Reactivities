@@ -51,5 +51,9 @@ export const Container = styled.div`
         }
       }
     }
+
+    div.user {
+      margin-left: auto;
+    }
   }
 `;

@@ -1,6 +1,9 @@
 import { Route, Switch, useLocation } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 
+import useStore from "../stores/useStore";
+
+import Loading from "../components/Loading";
 import ActivityDashboard from "../../features/activities";
 import ActivityForm from "../../features/activities/ActivityForm";
 import ActivityDetails from "../../features/activities/ActivityDetails";
@@ -8,13 +11,29 @@ import Home from "../../features/Home";
 import TestErrors from "../../features/errors/TestError";
 import NotFound from "../../features/errors/NotFound";
 import ServerError from "../../features/errors/ServerError";
-
+import LoginForm from "../../features/users/LoginForm";
+import RegisterForm from "../../features/users/RegisterForm";
 import Navbar from "./NavBar";
 
 import { Container, Background, Content } from "../styles/App";
+import { observer } from "mobx-react-lite";
+import { useEffect } from "react";
 
-function App() {
+export default observer(function App() {
   const location = useLocation();
+  const { commonStore, userStore } = useStore();
+  const { token, setAppLoaded, appLoaded } = commonStore;
+  const { getUser } = userStore;
+
+  useEffect(() => {
+    if (token) {
+      getUser().finally(() => setAppLoaded());
+    } else {
+      setAppLoaded();
+    }
+  }, [setAppLoaded, getUser, token]);
+
+  if (!appLoaded) return <Loading content="Loading app..." />;
 
   return (
     <Container>
@@ -43,6 +62,8 @@ function App() {
                   />
                   <Route path="/errors" component={TestErrors} />
                   <Route path="/server-error" component={ServerError} />
+                  <Route path="/login" component={LoginForm} />
+                  <Route path="/register" component={RegisterForm} />
                   <Route component={NotFound} />
                 </Switch>
               </Content>
@@ -54,6 +75,4 @@ function App() {
       <ToastContainer position="bottom-center" hideProgressBar />
     </Container>
   );
-}
-
-export default App;
+});

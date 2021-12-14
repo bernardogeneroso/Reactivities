@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+interface ContentProps {
+  isLoggedIn: boolean;
+}
+
 export const Container = styled.div`
   flex: 1;
   background-image: linear-gradient(
@@ -26,25 +30,25 @@ export const Container = styled.div`
       height: 60px;
     }
   }
+`;
 
-  div.content {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    text-align: center;
+export const Content = styled.div<ContentProps>`
+  display: flex;
+  flex-direction: ${(props) => (props.isLoggedIn ? "column" : "row")};
+  gap: 1rem;
+  text-align: center;
 
-    h2 {
-      font-size: 2.6rem;
-    }
+  h2 {
+    font-size: 2.6rem;
+  }
 
-    button {
-      padding: 1.4rem 6rem;
-      color: #fff;
-      font-size: 2rem;
-      background-color: transparent;
-      font-weight: 500;
-      border: 2px solid #fff;
-      border-radius: 0.8rem;
-    }
+  button {
+    padding: 1.4rem 6rem;
+    color: #fff;
+    font-size: 2rem;
+    background-color: transparent;
+    font-weight: 500;
+    border: 2px solid #fff;
+    border-radius: 0.8rem;
   }
 `;

@@ -17,7 +17,7 @@ export default observer(function ActivityDashboard() {
     if (activitiesRegister.size <= 1) loadActivities();
   }, [loadActivities, activitiesRegister.size]);
 
-  if (loadingInitial) return <Loading content="Loading app" />;
+  if (loadingInitial) return <Loading content="Loading activities..." />;
 
   return (
     <Container>
