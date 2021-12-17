@@ -140,3 +140,13 @@ C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Micr
 C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Infrastructure.dll
 C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Infrastructure.pdb
