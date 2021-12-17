@@ -138,3 +138,5 @@ C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Syst
 C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Infrastructure.pdb
