@@ -5,7 +5,7 @@ import { Link, useHistory, useParams } from "react-router-dom";
 import { v4 as uuid } from "uuid";
 import * as Yup from "yup";
 
-import { Activity } from "../../../app/models/activity";
+import { ActivityFormValues } from "../../../app/models/activity";
 
 import Input from "../../../app/components/Input";
 import Button from "../../../app/components/Button";
@@ -33,35 +33,24 @@ const validationSchema = Yup.object({
 
 export default observer(function ActivityForm() {
   const { activityStore } = useStore();
-  const {
-    createActivity,
-    updateActivity,
-    loadActivity,
-    loadingInitial,
-    submitting,
-  } = activityStore;
+  const { createActivity, updateActivity, loadActivity, loadingInitial } =
+    activityStore;
   const history = useHistory();
   const { id } = useParams<ActivityFormParams>();
-  const [activity, setActivity] = useState<Activity>({
-    id: "",
-    title: "",
-    date: null,
-    description: "",
-    category: "",
-    city: "",
-    venue: "",
-  });
+  const [activity, setActivity] = useState<ActivityFormValues>(
+    new ActivityFormValues()
+  );
 
   useEffect(() => {
     if (id) {
       loadActivity(id).then((activity) => {
-        setActivity(activity!);
+        setActivity(new ActivityFormValues(activity));
       });
     }
   }, [id, loadActivity]);
 
-  function handleFormSubmit(data: Omit<Activity, "id">) {
-    if (!id) {
+  function handleFormSubmit(data: ActivityFormValues) {
+    if (!data.id) {
       let newActivity = {
         ...data,
         id: uuid(),
@@ -124,7 +113,7 @@ export default observer(function ActivityForm() {
               <Button
                 type="submit"
                 situation="positive"
-                loading={submitting}
+                loading={isSubmitting}
                 disabled={!isValid || !dirty || isSubmitting}
               >
                 Submit

@@ -54,6 +54,11 @@ export const Container = styled.div`
 
     div.user {
       margin-left: auto;
+
+      .text,
+      .ui.dropdown > .dropdown.icon:before {
+        color: #fff;
+      }
     }
   }
 `;

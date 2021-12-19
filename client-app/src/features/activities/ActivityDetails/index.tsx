@@ -36,7 +36,7 @@ export default observer(function ActivityDetails() {
       <Header {...{ activity }} />
       <Information {...{ activity }} />
       <Chat />
-      <SideBar />
+      <SideBar {...{ activity }} />
     </Container>
   );
 });

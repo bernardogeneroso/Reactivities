@@ -40,6 +40,7 @@ export default observer(function Navbar() {
               alt={user?.userName}
               avatar
               spaced="right"
+              className="user-image"
             />
             <Dropdown pointing="top left" text={user?.displayName}>
               <Dropdown.Menu>

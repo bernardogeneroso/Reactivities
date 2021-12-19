@@ -37,8 +37,15 @@ export const Container = styled.div`
       span.hostedBy {
         margin-top: 1rem;
 
-        > span {
+        a {
+          color: #fff;
           font-weight: 500;
+
+          transition: filter 0.2s;
+
+          &:hover {
+            filter: brightness(0.8);
+          }
         }
       }
     }
@@ -54,6 +61,7 @@ export const Container = styled.div`
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 
     div.actions {
+      width: 100%;
       display: flex;
       flex-direction: row;
       gap: 1rem;

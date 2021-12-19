@@ -1,33 +1,48 @@
+import { observer } from "mobx-react-lite";
+import { Link } from "react-router-dom";
+
+import { Activity } from "../../../../app/models/activity";
+
 import { Container } from "./styles";
 
-export default function SideBar() {
+interface SideBarProps {
+  activity: Activity;
+}
+
+export default observer(function SideBar({
+  activity: { attendees, host },
+}: SideBarProps) {
+  if (!attendees) return null;
+
   return (
     <Container>
-      <header>3 people going</header>
+      <header>
+        {attendees.length} {attendees.length === 1 ? "Person" : "People"}
+      </header>
 
       <div className="container-people">
-        <div className="content">
-          <div className="left-side">
-            <img src="/assets/user.png" alt="User" />
+        {attendees.map((attendee) => (
+          <div className="content" key={attendee.userName}>
+            <div className="left-side">
+              <img
+                src={attendee.image || "/assets/user.png"}
+                alt={attendee.userName}
+              />
+            </div>
+            <div className="rest-side">
+              <Link to={`/profile/${attendee.userName}`}>
+                <h3>{attendee.displayName}</h3>
+              </Link>
+              <span>Following</span>
+            </div>
+            {attendee.userName === host?.userName && (
+              <div className="hosted">
+                <span>Host</span>
+              </div>
+            )}
           </div>
-          <div className="rest-side">
-            <h3>Bob</h3>
-            <span>Following</span>
-          </div>
-          <div className="hosted">
-            <span>Host</span>
-          </div>
-        </div>
-        <div className="content">
-          <div className="left-side">
-            <img src="/assets/user.png" alt="User" />
-          </div>
-          <div className="rest-side">
-            <h3>Bob</h3>
-            <span>Following</span>
-          </div>
-        </div>
+        ))}
       </div>
     </Container>
   );
-}
+});

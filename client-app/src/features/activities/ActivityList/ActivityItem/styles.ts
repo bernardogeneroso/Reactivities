@@ -1,12 +1,20 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   border-radius: 0.8rem;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 0px 2px;
+
+  .ui[class*="top attached"].label {
+    position: inherit !important;
+    border-radius: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 
   header {
     padding: 1rem;
@@ -27,6 +35,7 @@ export const Container = styled.div`
       flex: 1;
 
       h3 {
+        margin-bottom: 0.6rem;
         font-size: 1.8rem;
         font-weight: bold;
       }

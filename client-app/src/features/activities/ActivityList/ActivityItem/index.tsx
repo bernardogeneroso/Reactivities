@@ -3,6 +3,7 @@ import { observer } from "mobx-react-lite";
 import { FiClock, FiMapPin } from "react-icons/fi";
 import { format } from "date-fns";
 
+import AttendeesList from "./AttendeesList";
 import Button from "../../../../app/components/Button";
 
 import { Activity } from "../../../../app/models/activity";
@@ -10,6 +11,7 @@ import useStore from "../../../../app/stores/useStore";
 
 import { Container } from "./styles";
 import { Link } from "react-router-dom";
+import { Item, Label } from "semantic-ui-react";
 
 interface ActivityItemProps {
   activity: Activity;
@@ -31,14 +33,38 @@ function ActivityItem({ activity }: ActivityItemProps) {
 
   return (
     <Container>
+      {activity.isCancelled && (
+        <Label
+          attached="top"
+          color="red"
+          content="Cancelled"
+          style={{
+            textAlign: "center",
+          }}
+        />
+      )}
       <header>
         <div className="left-side">
           <img src="/assets/user.png" alt="User" />
         </div>
         <div className="rest-side">
           <h3>{activity.title}</h3>
-          <span>Hosted by Bob</span>
+          <span>Hosted by {activity.host?.displayName}</span>
         </div>
+        {activity.isHost && (
+          <Item.Description>
+            <Label basic color="orange">
+              You are hosting this activity
+            </Label>
+          </Item.Description>
+        )}
+        {activity.isGoing && !activity.isHost && (
+          <Item.Description>
+            <Label basic color="green">
+              You are going to this activity
+            </Label>
+          </Item.Description>
+        )}
       </header>
 
       <div className="content">
@@ -53,7 +79,9 @@ function ActivityItem({ activity }: ActivityItemProps) {
           </span>
         </div>
 
-        <div className="attendees">Attendees go here</div>
+        <div className="attendees">
+          <AttendeesList attendees={activity.attendees!} />
+        </div>
       </div>
 
       <div className="footer">
