@@ -150,3 +150,5 @@ C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.Iden
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Infrastructure.dll
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\CloudinaryDotNet.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Newtonsoft.Json.dll
