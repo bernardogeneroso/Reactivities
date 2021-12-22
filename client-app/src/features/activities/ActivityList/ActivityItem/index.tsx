@@ -45,11 +45,16 @@ function ActivityItem({ activity }: ActivityItemProps) {
       )}
       <header>
         <div className="left-side">
-          <img src="/assets/user.png" alt="User" />
+          <img src={activity.host?.image || "/assets/user.png"} alt="User" />
         </div>
         <div className="rest-side">
           <h3>{activity.title}</h3>
-          <span>Hosted by {activity.host?.displayName}</span>
+          <span>
+            Hosted by{" "}
+            <Link to={`/profiles/${activity.host?.userName}`}>
+              {activity.host?.displayName}
+            </Link>
+          </span>
         </div>
         {activity.isHost && (
           <Item.Description>

@@ -13,6 +13,7 @@ import NotFound from "../../features/errors/NotFound";
 import ServerError from "../../features/errors/ServerError";
 import LoginForm from "../../features/users/LoginForm";
 import RegisterForm from "../../features/users/RegisterForm";
+import Profile from "../../features/profiles";
 import Navbar from "./NavBar";
 
 import { Container, Background, Content } from "../styles/App";
@@ -60,6 +61,7 @@ export default observer(function App() {
                     path={["/createActivity", "/manage/:id"]}
                     component={ActivityForm}
                   />
+                  <Route path="/profiles/:userName" component={Profile} />
                   <Route path="/errors" component={TestErrors} />
                   <Route path="/server-error" component={ServerError} />
                   <Route path="/login" component={LoginForm} />

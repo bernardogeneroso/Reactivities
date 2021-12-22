@@ -63,4 +63,13 @@ button {
   font-size: 1.4rem;
   font-weight: 500;
 }
+
+.ui.segment, .ui.segments .segment, .ui.menu{
+  font-size: 1.6rem;
+}
+
+.ui.buttons.imgPreview {
+  margin-top: 1rem;
+  width: 100%;
+}
 `;

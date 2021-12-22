@@ -30,7 +30,7 @@ export default observer(function SideBar({
               />
             </div>
             <div className="rest-side">
-              <Link to={`/profile/${attendee.userName}`}>
+              <Link to={`/profiles/${attendee.userName}`}>
                 <h3>{attendee.displayName}</h3>
               </Link>
               <span>Following</span>

@@ -46,7 +46,7 @@ export default observer(function Navbar() {
               <Dropdown.Menu>
                 <Dropdown.Item
                   as={Link}
-                  to={`/profile/${user?.userName}`}
+                  to={`/profiles/${user?.userName}`}
                   text="My profile"
                   icon="user"
                 />
