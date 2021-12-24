@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Application.Profiles;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -13,6 +14,12 @@ namespace API.Controllers
         public async Task<ActionResult<Profile>> GetProfile(string userName)
         {
             return HandleResult(await Mediator.Send(new Details.Query { UserName = userName }));
+        }
+
+        [HttpPut]
+        public async Task<ActionResult<Unit>> EditProfile(Edit.Command command)
+        {
+            return HandleResult(await Mediator.Send(command));
         }
     }
 }
