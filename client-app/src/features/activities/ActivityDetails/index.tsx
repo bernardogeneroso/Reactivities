@@ -22,12 +22,17 @@ export default observer(function ActivityDetails() {
     selectedActivity: activity,
     loadActivity,
     loadingInitial,
+    clearSelectedActivity,
   } = activityStore;
   const { id } = useParams<ActivityDetailsParams>();
 
   useEffect(() => {
     if (id) loadActivity(id);
-  }, [id, loadActivity]);
+
+    return () => {
+      clearSelectedActivity();
+    };
+  }, [id, loadActivity, clearSelectedActivity]);
 
   if (loadingInitial || !activity) return <Loading />;
 
@@ -35,7 +40,7 @@ export default observer(function ActivityDetails() {
     <Container>
       <Header {...{ activity }} />
       <Information {...{ activity }} />
-      <Chat />
+      <Chat {...{ activityId: activity.id }} />
       <SideBar {...{ activity }} />
     </Container>
   );

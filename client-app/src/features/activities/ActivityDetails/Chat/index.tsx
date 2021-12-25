@@ -1,56 +1,106 @@
-import { MdEditNote } from "react-icons/md";
+import { observer } from "mobx-react-lite";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { formatDistanceToNow } from "date-fns";
+import { Loader } from "semantic-ui-react";
+import { Field, FieldProps, Form, Formik } from "formik";
+import * as Yup from "yup";
+
+import useStore from "../../../../app/stores/useStore";
 
 import { Container } from "./styles";
 
-export default function Chat() {
+interface ChatProps {
+  activityId: string;
+}
+
+const schema = Yup.object({
+  body: Yup.string().required(),
+});
+
+export default observer(function Chat({ activityId }: ChatProps) {
+  const { commentStore } = useStore();
+  const { createHubConnection, clearComments, comments, addComment } =
+    commentStore;
+
+  useEffect(() => {
+    if (activityId) {
+      createHubConnection(activityId);
+    }
+
+    return () => {
+      clearComments();
+    };
+  }, [activityId, createHubConnection, clearComments]);
+
   return (
     <Container>
       <header>Chat about this event</header>
 
       <div className="sub-container">
+        <Formik
+          onSubmit={(values, { resetForm }) =>
+            addComment(values).then(() => resetForm())
+          }
+          initialValues={{ body: "" }}
+          validationSchema={schema}
+        >
+          {({ isSubmitting, isValid, handleSubmit }) => (
+            <Form className="ui form">
+              <Field name="body">
+                {(props: FieldProps) => (
+                  <div
+                    style={{
+                      position: "relative",
+                    }}
+                  >
+                    <Loader active={isSubmitting} />
+                    <textarea
+                      placeholder="Enter your comment (Enter submit, SHIFT + enter for new line)"
+                      rows={2}
+                      {...props.field}
+                      onKeyPress={(e) => {
+                        if (e.key === "Enter" && e.shiftKey) {
+                          e.preventDefault();
+                          props.form.setFieldValue(
+                            "body",
+                            props.field.value + "\n"
+                          );
+                        }
+
+                        if (e.key === "Enter" && !e.shiftKey) {
+                          e.preventDefault();
+                          isValid && handleSubmit();
+                        }
+                      }}
+                    />
+                  </div>
+                )}
+              </Field>
+            </Form>
+          )}
+        </Formik>
+
         <div className="chat-container">
-          <div className="message-container">
-            <img src="/assets/user.png" alt="User" />
-            <div className="rest-side">
-              <div className="header-message">
-                <h3>Matt</h3>
-                <span>Today at 5:42PM</span>
+          {comments.map((comment) => (
+            <div className="message-container" key={comment.id}>
+              <img
+                src={comment.image || "/assets/user.png"}
+                alt={comment.userName}
+              />
+              <div className="rest-side">
+                <div className="header-message">
+                  <Link to={`/profiles/${comment.userName}`}>
+                    <h3>{comment.displayName}</h3>
+                  </Link>
+                  <span>{formatDistanceToNow(comment.createdAt)} ago</span>
+                </div>
+                <div className="message">{comment.body}</div>
               </div>
-              <div className="message">How artistic!</div>
-              <button type="button">Reply</button>
             </div>
-          </div>
-          <div className="message-container">
-            <img src="/assets/user.png" alt="User" />
-            <div className="rest-side">
-              <div className="header-message">
-                <h3>Joe Mama</h3>
-                <span>5 days ago</span>
-              </div>
-              <div className="message">
-                Dude, this is awesome. Thanks so much
-              </div>
-              <button type="button">Reply</button>
-            </div>
-          </div>
+          ))}
         </div>
-
-        <form>
-          <textarea
-            name=""
-            cols={30}
-            rows={10}
-            placeholder="Write your message from here..."
-          ></textarea>
-
-          <button type="submit">
-            <div className="icon">
-              <MdEditNote size={20} />
-            </div>
-            <div className="text">Add reply</div>
-          </button>
-        </form>
       </div>
     </Container>
   );
-}
+});

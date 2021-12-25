@@ -64,7 +64,7 @@ button {
   font-weight: 500;
 }
 
-.ui.segment, .ui.segments .segment, .ui.menu{
+.ui.segment, .ui.segments .segment, .ui.menu, .ui.form textarea{
   font-size: 1.6rem;
 }
 
