@@ -33,7 +33,7 @@ export default observer(function SideBar({
               <Link to={`/profiles/${attendee.userName}`}>
                 <h3>{attendee.displayName}</h3>
               </Link>
-              <span>Following</span>
+              {attendee.following && <span>Following</span>}
             </div>
             {attendee.userName === host?.userName && (
               <div className="hosted">

@@ -1,3 +1,4 @@
+import { observer } from "mobx-react-lite";
 import { Link } from "react-router-dom";
 import { Image, List, Popup } from "semantic-ui-react";
 
@@ -9,7 +10,14 @@ interface AttendeesListProps {
   attendees: Profile[];
 }
 
-export default function AttendeesList({ attendees }: AttendeesListProps) {
+export default observer(function AttendeesList({
+  attendees,
+}: AttendeesListProps) {
+  const styles = {
+    borderColor: "orange",
+    borderWidth: 2,
+  };
+
   return (
     <List horizontal>
       {attendees.map((attendee) => (
@@ -22,6 +30,8 @@ export default function AttendeesList({ attendees }: AttendeesListProps) {
                 size="mini"
                 circular
                 src={attendee.image || "/assets/user.png"}
+                bordered
+                style={attendee.following ? styles : null}
               />
             </List.Item>
           }
@@ -33,4 +43,4 @@ export default function AttendeesList({ attendees }: AttendeesListProps) {
       ))}
     </List>
   );
-}
+});

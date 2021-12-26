@@ -16,11 +16,15 @@ interface ProfileParams {
 export default observer(function Profile() {
   const { userName } = useParams<ProfileParams>();
   const { profileStore } = useStore();
-  const { loadingProfile, loadProfile, profile } = profileStore;
+  const { loadingProfile, loadProfile, profile, setActiveTab } = profileStore;
 
   useEffect(() => {
     loadProfile(userName);
-  }, [loadProfile, userName]);
+
+    return () => {
+      setActiveTab(0);
+    };
+  }, [loadProfile, userName, setActiveTab]);
 
   if (loadingProfile) return <Loading content="Loading profile..." />;
 
