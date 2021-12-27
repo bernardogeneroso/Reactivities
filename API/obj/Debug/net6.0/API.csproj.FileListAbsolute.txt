@@ -155,3 +155,5 @@ C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Newtonsoft.Jso
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\API.staticwebassets.runtime.json
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Npgsql.dll
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\NWebsec.AspNetCore.Core.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\NWebsec.AspNetCore.Middleware.dll

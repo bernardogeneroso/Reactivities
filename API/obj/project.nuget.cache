@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AD4LEgkrkNVa/+Ez/O4cOLs6aP+xrJS7G1DJ+aQSWIlHm+52la9JgtUk3W1X6uFwhGRWuEFShHmKtCLkNbFo+Q==",
+  "dgSpecHash": "9hOQgZCuMzoIEYGYrA6zWp6kw9P4z1fyNJ0qpbBQdjZc4EgIRwOU61pC2uMf534veoc5pu8+SQsimy+0pLjPJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,8 @@
     "C:\\Users\\gener\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\npgsql\\6.0.1\\npgsql.6.0.1.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.1\\npgsql.entityframeworkcore.postgresql.6.0.1.nupkg.sha512",
+    "C:\\Users\\gener\\.nuget\\packages\\nwebsec.aspnetcore.core\\3.0.0\\nwebsec.aspnetcore.core.3.0.0.nupkg.sha512",
+    "C:\\Users\\gener\\.nuget\\packages\\nwebsec.aspnetcore.middleware\\3.0.0\\nwebsec.aspnetcore.middleware.3.0.0.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
