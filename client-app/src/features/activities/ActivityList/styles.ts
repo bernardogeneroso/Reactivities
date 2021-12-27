@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  grid-area: activityList;
   margin-bottom: 2rem;
 `;
 

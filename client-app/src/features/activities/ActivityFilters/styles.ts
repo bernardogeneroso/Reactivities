@@ -49,6 +49,9 @@ export const Filter = styled.div<FilterProps>`
 
   transition: background-color 0.2s;
 
+  background-color: ${(props) =>
+    props.activated ? shade(0.05, "#fff") : "#fff"};
+
   &:hover {
     background-color: ${shade(0.05, "#fff")};
   }
