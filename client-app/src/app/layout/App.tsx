@@ -3,6 +3,7 @@ import { ToastContainer } from "react-toastify";
 
 import useStore from "../stores/useStore";
 
+import PrivateRoute from "./PrivateRoute";
 import Loading from "../components/Loading";
 import ActivityDashboard from "../../features/activities";
 import ActivityForm from "../../features/activities/ActivityForm";
@@ -50,19 +51,19 @@ export default observer(function App() {
               <Content>
                 <Switch>
                   <Route path="/" component={Home} exact />
-                  <Route
+                  <PrivateRoute
                     path="/activities"
                     component={ActivityDashboard}
                     exact
                   />
-                  <Route path="/activities/:id" component={ActivityDetails} />
-                  <Route
+                  <PrivateRoute path="/activities/:id" component={ActivityDetails} />
+                  <PrivateRoute
                     key={location.key}
                     path={["/createActivity", "/manage/:id"]}
                     component={ActivityForm}
                   />
-                  <Route path="/profiles/:userName" component={Profile} />
-                  <Route path="/errors" component={TestErrors} />
+                  <PrivateRoute path="/profiles/:userName" component={Profile} />
+                  <PrivateRoute path="/errors" component={TestErrors} />
                   <Route path="/server-error" component={ServerError} />
                   <Route path="/login" component={LoginForm} />
                   <Route path="/register" component={RegisterForm} />

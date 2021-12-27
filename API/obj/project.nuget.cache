@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vexPDQgUL/WTEzsb8r8Y3cLL/bnhruiWku8AW76BvktZzkeBn8ly6u31OJ7baufhCCgbclLUCsEX2sbVggtrsA==",
+  "dgSpecHash": "AD4LEgkrkNVa/+Ez/O4cOLs6aP+xrJS7G1DJ+aQSWIlHm+52la9JgtUk3W1X6uFwhGRWuEFShHmKtCLkNbFo+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gener\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -54,6 +54,8 @@
     "C:\\Users\\gener\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\gener\\.nuget\\packages\\npgsql\\6.0.1\\npgsql.6.0.1.nupkg.sha512",
+    "C:\\Users\\gener\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.1\\npgsql.entityframeworkcore.postgresql.6.0.1.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",

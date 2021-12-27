@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\api\\API.csproj": {}
+    "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\api\\API.csproj": {
+    "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\api\\API.csproj",
+        "projectPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\gener\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\api\\obj\\",
+        "outputPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -36,8 +36,8 @@
               "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Application\\Application.csproj"
               },
-              "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Infrastructure\\Infrastructure.csproj"
+              "c:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -85,6 +85,10 @@
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.15.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -262,14 +266,14 @@
         }
       }
     },
-    "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
+    "c:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "c:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\gener\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -387,6 +391,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [

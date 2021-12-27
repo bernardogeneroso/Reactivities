@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dvihAdohOvNlZtrVi62l5UV0VlMr9lTZgDlk32jTal27KGrkiJGPFMlo7bRuW3/tWh7rbIrF2Q7uQSwqWhRyTw==",
+  "dgSpecHash": "7ZkUWyyRp5X5aqQb2SuFYCgXiqybaGU+Zcha0gNvyM9O4KHIt/M7KnBAv24aaLlHmk2luwpDvKireIqrJILzYA==",
   "success": true,
   "projectFilePath": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,8 @@
     "C:\\Users\\gener\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\gener\\.nuget\\packages\\npgsql\\6.0.1\\npgsql.6.0.1.nupkg.sha512",
+    "C:\\Users\\gener\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.1\\npgsql.entityframeworkcore.postgresql.6.0.1.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
     "C:\\Users\\gener\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",

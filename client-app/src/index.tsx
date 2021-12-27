@@ -4,6 +4,7 @@ import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
 import { StoreProvider } from "./app/stores";
+import ScrollToTop from './app/layout/ScrollToTop';
 import reportWebVitals from "./reportWebVitals";
 import App from "./app/layout/App";
 
@@ -18,6 +19,7 @@ export const history = createBrowserHistory();
 ReactDOM.render(
   <StoreProvider>
     <Router {...{ history }}>
+      <ScrollToTop />
       <App />
       <GlobalStyles />
     </Router>

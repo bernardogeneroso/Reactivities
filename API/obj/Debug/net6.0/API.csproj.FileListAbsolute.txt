@@ -152,3 +152,6 @@ C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Infrastructure
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Infrastructure.pdb
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\CloudinaryDotNet.dll
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\API.staticwebassets.runtime.json
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Npgsql.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
