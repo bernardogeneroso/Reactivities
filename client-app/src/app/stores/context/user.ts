@@ -7,6 +7,8 @@ import { User, UserFormValues } from "../../models/user";
 
 export default class UserStore {
   user: User | null = null;
+  fbAccessToken: string | null = null;
+  fbLoading = false;
 
   constructor() {
     makeAutoObservable(this);
@@ -63,5 +65,46 @@ export default class UserStore {
 
   setDisplayName = (name: string) => {
     if (this.user) this.user.displayName = name;
+  };
+
+  getFacebookLoginStatus = async () => {
+    window.FB.getLoginStatus((response) => {
+      if (response.status === "connected") {
+        this.fbAccessToken = response.authResponse.accessToken;
+      }
+    });
+  };
+
+  facebookLogin = () => {
+    this.fbLoading = true;
+
+    const apiLogin = (accessToken: string) => {
+      return agent.Account.fbLogin(accessToken)
+        .then((user) => {
+          store.commonStore.setToken(user.token);
+          runInAction(() => {
+            this.user = user;
+            this.fbLoading = false;
+          });
+          history.push("/activities");
+        })
+        .catch((err) => {
+          console.log(err);
+          runInAction(() => {
+            this.fbLoading = false;
+          });
+        });
+    };
+
+    if (this.fbAccessToken) {
+      apiLogin(this.fbAccessToken);
+    } else {
+      window.FB.login(
+        (response) => {
+          apiLogin(response.authResponse.accessToken);
+        },
+        { scope: "public_profile,email" }
+      );
+    }
   };
 }

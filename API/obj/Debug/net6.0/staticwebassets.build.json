@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yrMEO/Zk0DbMrf811yuHVfQoULdre46XCQfp9jWMNiI=",
+  "Hash": "6HGjLAQ6vtgwz3/WqC2eY5G5vRTntXoTLJc2nwLXX3o=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -408,12 +408,12 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\3.71b1b67a.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\main.8467f8ae.chunk.js",
+      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\main.44fb5d6e.chunk.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.8467f8ae.chunk.js",
+      "RelativePath": "static/js/main.44fb5d6e.chunk.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.8467f8ae.chunk.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.44fb5d6e.chunk.js"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\main.8467f8ae.chunk.js.map",
+      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\main.44fb5d6e.chunk.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.8467f8ae.chunk.js.map",
+      "RelativePath": "static/js/main.44fb5d6e.chunk.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,7 +439,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.8467f8ae.chunk.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.44fb5d6e.chunk.js.map"
     },
     {
       "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\runtime-main.70da7aa7.js",

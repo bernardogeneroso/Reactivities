@@ -50,5 +50,12 @@ export const Content = styled.div<ContentProps>`
     font-weight: 500;
     border: 2px solid #fff;
     border-radius: 0.8rem;
+
+    &.btn-facebook {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+    }
   }
 `;
