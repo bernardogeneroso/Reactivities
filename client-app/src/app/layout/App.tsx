@@ -25,15 +25,16 @@ export default observer(function App() {
   const location = useLocation();
   const { commonStore, userStore } = useStore();
   const { token, setAppLoaded, appLoaded } = commonStore;
-  const { getUser } = userStore;
+  const { getUser, getFacebookLoginStatus } = userStore;
 
   useEffect(() => {
     if (token) {
       getUser().finally(() => setAppLoaded());
     } else {
+      getFacebookLoginStatus().then(() => setAppLoaded());
       setAppLoaded();
     }
-  }, [setAppLoaded, getUser, token]);
+  }, [setAppLoaded, getUser, token, getFacebookLoginStatus]);
 
   if (!appLoaded) return <Loading content="Loading app..." />;
 
@@ -56,13 +57,19 @@ export default observer(function App() {
                     component={ActivityDashboard}
                     exact
                   />
-                  <PrivateRoute path="/activities/:id" component={ActivityDetails} />
+                  <PrivateRoute
+                    path="/activities/:id"
+                    component={ActivityDetails}
+                  />
                   <PrivateRoute
                     key={location.key}
                     path={["/createActivity", "/manage/:id"]}
                     component={ActivityForm}
                   />
-                  <PrivateRoute path="/profiles/:userName" component={Profile} />
+                  <PrivateRoute
+                    path="/profiles/:userName"
+                    component={Profile}
+                  />
                   <PrivateRoute path="/errors" component={TestErrors} />
                   <Route path="/server-error" component={ServerError} />
                   <Route path="/login" component={LoginForm} />
