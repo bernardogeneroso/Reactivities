@@ -32,7 +32,6 @@ export default observer(function App() {
       getUser().finally(() => setAppLoaded());
     } else {
       getFacebookLoginStatus().then(() => setAppLoaded());
-      setAppLoaded();
     }
   }, [setAppLoaded, getUser, token, getFacebookLoginStatus]);
 
