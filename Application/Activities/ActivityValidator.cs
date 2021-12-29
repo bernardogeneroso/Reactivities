@@ -1,10 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Domain;
-using FluentValidation;
-
 namespace Application.Activities
 {
     public class ActivityValidator : AbstractValidator<Activity>

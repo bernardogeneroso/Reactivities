@@ -1,0 +1,12 @@
+global using System.Security.Claims;
+global using Application.Interfaces;
+global using MailKit.Net.Smtp;
+global using MailKit.Security;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.Options;
+global using MimeKit;
+global using MimeKit.Text;
+global using Persistence;

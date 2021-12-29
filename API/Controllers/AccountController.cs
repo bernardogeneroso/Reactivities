@@ -1,19 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
 using API.DTOs;
 using API.Services;
 using Application.Interfaces;
-using Domain;
-using Infrastructure.Email;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
-using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
 namespace API.Controllers
@@ -41,22 +32,6 @@ namespace API.Controllers
             {
                 BaseAddress = new System.Uri("https://graph.facebook.com")
             };
-        }
-
-        [AllowAnonymous]
-        [HttpGet("testing")]
-        public async Task<IActionResult> Test()
-        {
-            try
-            {
-                await _emailAccessor.SendEmailAsync("generoso.bernardoapple@gmail.com", "Reactivities email", "Received email");
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
-
-            return Ok();
         }
 
         [AllowAnonymous]

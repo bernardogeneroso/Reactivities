@@ -1,11 +1,3 @@
-using Application.Core;
-using Application.Interfaces;
-using Domain;
-using FluentValidation;
-using MediatR;
-using Microsoft.EntityFrameworkCore;
-using Persistence;
-
 namespace Application.Activities
 {
     public class Create
