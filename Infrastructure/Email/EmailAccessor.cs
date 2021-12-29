@@ -14,9 +14,8 @@ namespace Infrastructure.Email
     {
         private readonly MailMessage _msg;
         private readonly SmtpClient _smtpClient;
-        private readonly ILogger _logger;
 
-        public EmailAccessor(IConfiguration config, ILogger logger)
+        public EmailAccessor(IConfiguration config)
         {
             var email = config["Email:User"];
 
@@ -26,7 +25,6 @@ namespace Infrastructure.Email
 
             _msg = msg;
             _smtpClient = smtpClient;
-            _logger = logger;
 
             _msg.From = new MailAddress(email);
             _msg.IsBodyHtml = true;
@@ -42,24 +40,15 @@ namespace Infrastructure.Email
             _msg.Subject = subject;
             _msg.Body = message;
 
-            try
-            {
-                _smtpClient.SendAsync(_msg, address);
 
-                _smtpClient.SendCompleted += (s, e) =>
-                {
-                    _smtpClient.Dispose();
-                    _msg.Dispose();
-                };
-            }
-            catch (Exception e)
-            {
-                _logger.LogError(e.Message);
+            _smtpClient.SendAsync(_msg, address);
 
+            _smtpClient.SendCompleted += (s, e) =>
+            {
                 _smtpClient.Dispose();
                 _msg.Dispose();
+            };
 
-            }
 
             return Task.CompletedTask;
         }

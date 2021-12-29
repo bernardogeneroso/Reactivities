@@ -44,6 +44,22 @@ namespace API.Controllers
         }
 
         [AllowAnonymous]
+        [HttpGet("testing")]
+        public async Task<IActionResult> Test()
+        {
+            try
+            {
+                await _emailAccessor.SendEmailAsync("generoso.bernardoapple@gmail.com", "Reactivities email", "Received email");
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+
+            return Ok();
+        }
+
+        [AllowAnonymous]
         [HttpPost("login")]
         public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
         {
