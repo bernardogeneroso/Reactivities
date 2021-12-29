@@ -1,4 +1,5 @@
 import { makeAutoObservable, runInAction } from "mobx";
+import { toast } from "react-toastify";
 import { store } from "..";
 import { history } from "../../..";
 import agent from "../../api/agent";
@@ -50,11 +51,8 @@ export default class UserStore {
 
   register = async (data: UserFormValues) => {
     try {
-      const user = await agent.Account.register(data);
-      store.commonStore.setToken(user.token);
-      this.startRefreshTokenTimer(user);
-      runInAction(() => (this.user = user));
-      history.push("/activities");
+      await agent.Account.register(data);
+      history.push(`/account/registerSuccess?email=${data.email}`);
     } catch (error) {
       throw error;
     }
@@ -116,6 +114,18 @@ export default class UserStore {
     } catch (error) {
       console.log(error);
     }
+  };
+
+  resendEmailConfirmationLink = (email: string) => {
+    agent.Account.resendEmailConfirmationLink(email)
+      .then(() => {
+        toast.success(
+          "Verification email has resent! - please check your email"
+        );
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   private startRefreshTokenTimer(user: User) {

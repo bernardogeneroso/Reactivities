@@ -22,7 +22,11 @@ namespace API.Extensions
             services.AddIdentityCore<AppUser>(opt =>
             {
                 opt.Password.RequireNonAlphanumeric = false;
-            }).AddEntityFrameworkStores<DataContext>().AddSignInManager<SignInManager<AppUser>>();
+                opt.SignIn.RequireConfirmedEmail = true;
+            })
+                .AddEntityFrameworkStores<DataContext>()
+                .AddSignInManager<SignInManager<AppUser>>()
+                .AddDefaultTokenProviders();
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["TokenKey"]));
 

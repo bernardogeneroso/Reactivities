@@ -4,6 +4,7 @@ import { ToastContainer } from "react-toastify";
 import useStore from "../stores/useStore";
 
 import PrivateRoute from "./PrivateRoute";
+import RegisterSuccess from "../../features/users/RegisterSuccess";
 import Loading from "../components/Loading";
 import ActivityDashboard from "../../features/activities";
 import ActivityForm from "../../features/activities/ActivityForm";
@@ -20,6 +21,7 @@ import Navbar from "./NavBar";
 import { Container, Background, Content } from "../styles/App";
 import { observer } from "mobx-react-lite";
 import { useEffect } from "react";
+import ConfirmEmail from "../../features/users/ConfirmEmail";
 
 export default observer(function App() {
   const location = useLocation();
@@ -73,6 +75,11 @@ export default observer(function App() {
                   <Route path="/server-error" component={ServerError} />
                   <Route path="/login" component={LoginForm} />
                   <Route path="/register" component={RegisterForm} />
+                  <Route
+                    path="/account/registerSuccess"
+                    component={RegisterSuccess}
+                  />
+                  <Route path="/account/verifyEmail" component={ConfirmEmail} />
                   <Route component={NotFound} />
                 </Switch>
               </Content>

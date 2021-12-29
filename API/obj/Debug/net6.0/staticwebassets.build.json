@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "unDK5e5XByh0mj9puTP8QvLvxn/GWR2Bx+4KjCb9MA8=",
+  "Hash": "Nblp514WudfLZonvi7Vj3+jlm+U2NFNBw3q2dSpQgi8=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -323,12 +323,12 @@
       "OriginalItemSpec": "wwwroot\\static\\css\\2.d2a3062f.chunk.css.map"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\2.4096f82d.chunk.js",
+      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\2.0f6a8e2d.chunk.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/2.4096f82d.chunk.js",
+      "RelativePath": "static/js/2.0f6a8e2d.chunk.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\2.4096f82d.chunk.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\2.0f6a8e2d.chunk.js"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\2.4096f82d.chunk.js.LICENSE.txt",
+      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\2.0f6a8e2d.chunk.js.LICENSE.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/2.4096f82d.chunk.js.LICENSE.txt",
+      "RelativePath": "static/js/2.0f6a8e2d.chunk.js.LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,15 +354,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\2.4096f82d.chunk.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\static\\js\\2.0f6a8e2d.chunk.js.LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\2.4096f82d.chunk.js.map",
+      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\2.0f6a8e2d.chunk.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/2.4096f82d.chunk.js.map",
+      "RelativePath": "static/js/2.0f6a8e2d.chunk.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,7 +371,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\2.4096f82d.chunk.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\2.0f6a8e2d.chunk.js.map"
     },
     {
       "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\3.71b1b67a.chunk.js",
@@ -408,12 +408,12 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\3.71b1b67a.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\main.4835cba7.chunk.js",
+      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\main.73e76160.chunk.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.4835cba7.chunk.js",
+      "RelativePath": "static/js/main.73e76160.chunk.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.4835cba7.chunk.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.73e76160.chunk.js"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\main.4835cba7.chunk.js.map",
+      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\main.73e76160.chunk.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.4835cba7.chunk.js.map",
+      "RelativePath": "static/js/main.73e76160.chunk.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,7 +439,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.4835cba7.chunk.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.73e76160.chunk.js.map"
     },
     {
       "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\runtime-main.70da7aa7.js",

@@ -21,9 +21,7 @@ export default observer(function LoginForm() {
           error: null,
         }}
         onSubmit={(values, { setErrors }) =>
-          login(values).catch((err) =>
-            setErrors({ error: "Invalid email or password" })
-          )
+          login(values).catch((err) => setErrors({ error: err.response.data }))
         }
       >
         {({ handleSubmit, isSubmitting, errors }) => (

@@ -45,6 +45,10 @@ export const Container = styled.div`
 
           transition: filter 0.2s;
 
+          &.active {
+            color: lightgrey;
+          }
+
           &:hover {
             filter: brightness(0.9);
           }

@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Mail;
+using System.Threading.Tasks;
+using Application.Interfaces;
+using Microsoft.Extensions.Configuration;
+
+namespace Infrastructure.Email
+{
+    public class EmailAccessor : IEmailAccessor
+    {
+        private readonly MailMessage _msg;
+        private readonly SmtpClient _smtpClient;
+
+        public EmailAccessor(IConfiguration config)
+        {
+            var email = config["Email:User"];
+
+            var loginInfo = new NetworkCredential(email, config["Email:Password"]);
+            var msg = new MailMessage();
+            var smtpClient = new SmtpClient(config["Email:Host"], config["Email:Port"] == "0" ? 587 : int.Parse(config["Email:Port"]));
+
+            _msg = msg;
+            _smtpClient = smtpClient;
+
+            _msg.From = new MailAddress(email);
+            _msg.IsBodyHtml = true;
+
+            _smtpClient.EnableSsl = true;
+            _smtpClient.UseDefaultCredentials = false;
+            _smtpClient.Credentials = loginInfo;
+        }
+
+        public Task SendEmailAsync(string address, string subject, string message)
+        {
+            _msg.To.Add(address);
+            _msg.Subject = subject;
+            _msg.Body = message;
+
+            _smtpClient.SendAsync(_msg, address);
+
+            return Task.CompletedTask;
+        }
+    }
+}

@@ -21,13 +21,13 @@ function ActivityItem({ activity }: ActivityItemProps) {
   const { activityStore } = useStore();
   const { deleteActivity, submitting } = activityStore;
 
-  const [target, setTarge] = useState("");
+  const [target, setTarget] = useState("");
 
   function handleDeleteActivity(
     e: SyntheticEvent<HTMLButtonElement>,
     id: string
   ) {
-    setTarge(e.currentTarget.name);
+    setTarget(e.currentTarget.name);
     deleteActivity(id);
   }
 
@@ -93,14 +93,16 @@ function ActivityItem({ activity }: ActivityItemProps) {
         <span className="venue">{activity.venue}</span>
 
         <div className="options">
-          <Button
-            name={activity.id}
-            situation="negative"
-            onClick={(event) => handleDeleteActivity(event, activity.id)}
-            loading={target === activity.id && submitting}
-          >
-            Delete
-          </Button>
+          {activity.isHost && (
+            <Button
+              name={activity.id}
+              situation="negative"
+              onClick={(event) => handleDeleteActivity(event, activity.id)}
+              loading={target === activity.id && submitting}
+            >
+              Delete
+            </Button>
+          )}
           <Link to={`/activities/${activity.id}`}>
             <Button situation="default">View</Button>
           </Link>
