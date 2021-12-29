@@ -157,3 +157,6 @@ C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Npgsql.dll
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\NWebsec.AspNetCore.Core.dll
 C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\NWebsec.AspNetCore.Middleware.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\MailKit.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\MimeKit.dll
+C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
