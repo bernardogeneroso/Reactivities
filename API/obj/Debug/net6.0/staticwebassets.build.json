@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Nblp514WudfLZonvi7Vj3+jlm+U2NFNBw3q2dSpQgi8=",
+  "Hash": "+BIiyeSNkBrudupQrQKtSRZdgUNsOtNv95oGWOJnpVI=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "API\\wwwroot",
+      "Name": "API/wwwroot",
       "Source": "API",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\asset-manifest.json",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/asset-manifest.json",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "asset-manifest.json",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\asset-manifest.json"
+      "OriginalItemSpec": "wwwroot/asset-manifest.json"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\culture.jpg",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/assets/categoryImages/culture.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/culture.jpg",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\culture.jpg"
+      "OriginalItemSpec": "wwwroot/assets/categoryImages/culture.jpg"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\drinks.jpg",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/assets/categoryImages/drinks.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/drinks.jpg",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\drinks.jpg"
+      "OriginalItemSpec": "wwwroot/assets/categoryImages/drinks.jpg"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\film.jpg",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/assets/categoryImages/film.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/film.jpg",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\film.jpg"
+      "OriginalItemSpec": "wwwroot/assets/categoryImages/film.jpg"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\food.jpg",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/assets/categoryImages/food.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/food.jpg",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\food.jpg"
+      "OriginalItemSpec": "wwwroot/assets/categoryImages/food.jpg"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\music.jpg",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/assets/categoryImages/music.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/music.jpg",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\music.jpg"
+      "OriginalItemSpec": "wwwroot/assets/categoryImages/music.jpg"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\travel.jpg",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/assets/categoryImages/travel.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/travel.jpg",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\travel.jpg"
+      "OriginalItemSpec": "wwwroot/assets/categoryImages/travel.jpg"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\assets\\logo.png",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/assets/logo.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "assets/logo.png",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\logo.png"
+      "OriginalItemSpec": "wwwroot/assets/logo.png"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\assets\\placeholder.png",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/assets/placeholder.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "assets/placeholder.png",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\placeholder.png"
+      "OriginalItemSpec": "wwwroot/assets/placeholder.png"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\assets\\user.png",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/assets/user.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "assets/user.png",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\user.png"
+      "OriginalItemSpec": "wwwroot/assets/user.png"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\favicon.ico",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/favicon.ico",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\index.html",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/index.html",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
+      "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\logo192.png",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/logo192.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "logo192.png",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\logo192.png"
+      "OriginalItemSpec": "wwwroot/logo192.png"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\logo512.png",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/logo512.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "logo512.png",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\logo512.png"
+      "OriginalItemSpec": "wwwroot/logo512.png"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\manifest.json",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/manifest.json",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "manifest.json",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\manifest.json"
+      "OriginalItemSpec": "wwwroot/manifest.json"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\robots.txt",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/robots.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "robots.txt",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\robots.txt"
+      "OriginalItemSpec": "wwwroot/robots.txt"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\css\\2.d2a3062f.chunk.css",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/css/2.d2a3062f.chunk.css",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/css/2.d2a3062f.chunk.css",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\css\\2.d2a3062f.chunk.css"
+      "OriginalItemSpec": "wwwroot/static/css/2.d2a3062f.chunk.css"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\css\\2.d2a3062f.chunk.css.map",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/css/2.d2a3062f.chunk.css.map",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/css/2.d2a3062f.chunk.css.map",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\css\\2.d2a3062f.chunk.css.map"
+      "OriginalItemSpec": "wwwroot/static/css/2.d2a3062f.chunk.css.map"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\2.0f6a8e2d.chunk.js",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/js/2.0f6a8e2d.chunk.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/js/2.0f6a8e2d.chunk.js",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\2.0f6a8e2d.chunk.js"
+      "OriginalItemSpec": "wwwroot/static/js/2.0f6a8e2d.chunk.js"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\2.0f6a8e2d.chunk.js.LICENSE.txt",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/js/2.0f6a8e2d.chunk.js.LICENSE.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/js/2.0f6a8e2d.chunk.js.LICENSE.txt",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\2.0f6a8e2d.chunk.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/static/js/2.0f6a8e2d.chunk.js.LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\2.0f6a8e2d.chunk.js.map",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/js/2.0f6a8e2d.chunk.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/js/2.0f6a8e2d.chunk.js.map",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\2.0f6a8e2d.chunk.js.map"
+      "OriginalItemSpec": "wwwroot/static/js/2.0f6a8e2d.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\3.71b1b67a.chunk.js",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/js/3.71b1b67a.chunk.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/js/3.71b1b67a.chunk.js",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\3.71b1b67a.chunk.js"
+      "OriginalItemSpec": "wwwroot/static/js/3.71b1b67a.chunk.js"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\3.71b1b67a.chunk.js.map",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/js/3.71b1b67a.chunk.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/js/3.71b1b67a.chunk.js.map",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\3.71b1b67a.chunk.js.map"
+      "OriginalItemSpec": "wwwroot/static/js/3.71b1b67a.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\main.73e76160.chunk.js",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/js/main.73e76160.chunk.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/js/main.73e76160.chunk.js",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.73e76160.chunk.js"
+      "OriginalItemSpec": "wwwroot/static/js/main.73e76160.chunk.js"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\main.73e76160.chunk.js.map",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/js/main.73e76160.chunk.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/js/main.73e76160.chunk.js.map",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.73e76160.chunk.js.map"
+      "OriginalItemSpec": "wwwroot/static/js/main.73e76160.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\runtime-main.70da7aa7.js",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/js/runtime-main.70da7aa7.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/js/runtime-main.70da7aa7.js",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\runtime-main.70da7aa7.js"
+      "OriginalItemSpec": "wwwroot/static/js/runtime-main.70da7aa7.js"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\js\\runtime-main.70da7aa7.js.map",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/js/runtime-main.70da7aa7.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/js/runtime-main.70da7aa7.js.map",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\runtime-main.70da7aa7.js.map"
+      "OriginalItemSpec": "wwwroot/static/js/runtime-main.70da7aa7.js.map"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\brand-icons.278156e4.woff2",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/brand-icons.278156e4.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/brand-icons.278156e4.woff2",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\brand-icons.278156e4.woff2"
+      "OriginalItemSpec": "wwwroot/static/media/brand-icons.278156e4.woff2"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\brand-icons.65a2fb6d.ttf",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/brand-icons.65a2fb6d.ttf",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/brand-icons.65a2fb6d.ttf",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\brand-icons.65a2fb6d.ttf"
+      "OriginalItemSpec": "wwwroot/static/media/brand-icons.65a2fb6d.ttf"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\brand-icons.6729d297.svg",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/brand-icons.6729d297.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/brand-icons.6729d297.svg",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\brand-icons.6729d297.svg"
+      "OriginalItemSpec": "wwwroot/static/media/brand-icons.6729d297.svg"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\brand-icons.cac87dc0.woff",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/brand-icons.cac87dc0.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/brand-icons.cac87dc0.woff",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\brand-icons.cac87dc0.woff"
+      "OriginalItemSpec": "wwwroot/static/media/brand-icons.cac87dc0.woff"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\brand-icons.d68fa3e6.eot",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/brand-icons.d68fa3e6.eot",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/brand-icons.d68fa3e6.eot",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\brand-icons.d68fa3e6.eot"
+      "OriginalItemSpec": "wwwroot/static/media/brand-icons.d68fa3e6.eot"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\flags.99f63ae7.png",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/flags.99f63ae7.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/flags.99f63ae7.png",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\flags.99f63ae7.png"
+      "OriginalItemSpec": "wwwroot/static/media/flags.99f63ae7.png"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\icons.38c6d8ba.woff2",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/icons.38c6d8ba.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/icons.38c6d8ba.woff2",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\icons.38c6d8ba.woff2"
+      "OriginalItemSpec": "wwwroot/static/media/icons.38c6d8ba.woff2"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\icons.425399f8.woff",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/icons.425399f8.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/icons.425399f8.woff",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\icons.425399f8.woff"
+      "OriginalItemSpec": "wwwroot/static/media/icons.425399f8.woff"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\icons.62d9dae4.svg",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/icons.62d9dae4.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/icons.62d9dae4.svg",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\icons.62d9dae4.svg"
+      "OriginalItemSpec": "wwwroot/static/media/icons.62d9dae4.svg"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\icons.a01e3f2d.eot",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/icons.a01e3f2d.eot",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/icons.a01e3f2d.eot",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\icons.a01e3f2d.eot"
+      "OriginalItemSpec": "wwwroot/static/media/icons.a01e3f2d.eot"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\icons.c656b8ca.ttf",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/icons.c656b8ca.ttf",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/icons.c656b8ca.ttf",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\icons.c656b8ca.ttf"
+      "OriginalItemSpec": "wwwroot/static/media/icons.c656b8ca.ttf"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\outline-icons.53671035.ttf",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/outline-icons.53671035.ttf",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/outline-icons.53671035.ttf",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\outline-icons.53671035.ttf"
+      "OriginalItemSpec": "wwwroot/static/media/outline-icons.53671035.ttf"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\outline-icons.687a4990.woff2",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/outline-icons.687a4990.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/outline-icons.687a4990.woff2",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\outline-icons.687a4990.woff2"
+      "OriginalItemSpec": "wwwroot/static/media/outline-icons.687a4990.woff2"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\outline-icons.752905fa.eot",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/outline-icons.752905fa.eot",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/outline-icons.752905fa.eot",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\outline-icons.752905fa.eot"
+      "OriginalItemSpec": "wwwroot/static/media/outline-icons.752905fa.eot"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\outline-icons.9c4845b4.svg",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/outline-icons.9c4845b4.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/outline-icons.9c4845b4.svg",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\outline-icons.9c4845b4.svg"
+      "OriginalItemSpec": "wwwroot/static/media/outline-icons.9c4845b4.svg"
     },
     {
-      "Identity": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\static\\media\\outline-icons.ddae9b1b.woff",
+      "Identity": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/static/media/outline-icons.ddae9b1b.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gener\\Documents\\GitHub\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "static/media/outline-icons.ddae9b1b.woff",
       "AssetKind": "All",
@@ -745,7 +745,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\media\\outline-icons.ddae9b1b.woff"
+      "OriginalItemSpec": "wwwroot/static/media/outline-icons.ddae9b1b.woff"
     }
   ]
 }

@@ -1,162 +1,248 @@
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\appsettings.json
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\API.exe
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\API.deps.json
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\API.runtimeconfig.json
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\API.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\ref\API.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\API.pdb
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Application.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Domain.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Persistence.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Application.pdb
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Domain.pdb
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Persistence.pdb
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\API.csproj.AssemblyReference.cache
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\API.AssemblyInfoInputs.cache
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\API.AssemblyInfo.cs
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\API.csproj.CoreCompileInputs.cache
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\scopedcss\bundle\API.styles.css
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\API.csproj.CopyComplete
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\API.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\ref\API.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\API.pdb
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\obj\Debug\net6.0\API.genruntimeconfig.cache
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\SQLitePCLRaw.core.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Humanizer.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\appsettings.json
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\API.exe
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\API.deps.json
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\API.runtimeconfig.json
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\API.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\ref\API.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\API.pdb
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Humanizer.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\SQLitePCLRaw.core.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Application.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Domain.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Persistence.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Application.pdb
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Domain.pdb
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Persistence.pdb
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\API.csproj.AssemblyReference.cache
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\API.AssemblyInfoInputs.cache
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\API.AssemblyInfo.cs
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\API.csproj.CoreCompileInputs.cache
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\scopedcss\bundle\API.styles.css
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\API.csproj.CopyComplete
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\API.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\ref\API.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\API.pdb
-C:\Users\gener\Documents\GitHub\Reactivities\API\obj\Debug\net6.0\API.genruntimeconfig.cache
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\MediatR.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\MediatR.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\gener\Documents\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.dll
-C:\Users\gener\Documents\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
-C:\Users\gener\Documents\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Infrastructure.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\api\bin\Debug\net6.0\Infrastructure.pdb
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Infrastructure.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Infrastructure.pdb
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\CloudinaryDotNet.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\API.staticwebassets.runtime.json
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Npgsql.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\NWebsec.AspNetCore.Core.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\NWebsec.AspNetCore.Middleware.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\MailKit.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\MimeKit.dll
-C:\Users\gener\Documents\GitHub\Reactivities\API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/appsettings.json
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/API.exe
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/API.deps.json
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/API.runtimeconfig.json
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/API.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/ref/API.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/API.pdb
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Application.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Domain.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Persistence.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Application.pdb
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Domain.pdb
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Persistence.pdb
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/API.csproj.AssemblyReference.cache
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/API.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/API.AssemblyInfoInputs.cache
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/API.AssemblyInfo.cs
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/API.csproj.CoreCompileInputs.cache
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/API.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/API.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/scopedcss/bundle/API.styles.css
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/API.csproj.CopyComplete
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/API.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/ref/API.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/API.pdb
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/obj/Debug/net6.0/API.genruntimeconfig.cache
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Humanizer.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/appsettings.json
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/API.exe
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/API.deps.json
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/API.runtimeconfig.json
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/API.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/ref/API.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/API.pdb
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Humanizer.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Application.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Domain.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Persistence.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Application.pdb
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Domain.pdb
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Persistence.pdb
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/API.csproj.AssemblyReference.cache
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/API.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/API.AssemblyInfoInputs.cache
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/API.AssemblyInfo.cs
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/API.csproj.CoreCompileInputs.cache
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/API.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/API.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/scopedcss/bundle/API.styles.css
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/API.csproj.CopyComplete
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/API.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/ref/API.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/API.pdb
+C:/Users/gener/Documents/GitHub/Reactivities/API/obj/Debug/net6.0/API.genruntimeconfig.cache
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/MediatR.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/AutoMapper.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/AutoMapper.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/MediatR.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/gener/Documents/GitHub/Reactivities/api/bin/Debug/net6.0/FluentValidation.dll
+C:/Users/gener/Documents/GitHub/Reactivities/api/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+C:/Users/gener/Documents/GitHub/Reactivities/api/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/FluentValidation.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/Infrastructure.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/api/bin/Debug/net6.0/Infrastructure.pdb
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Infrastructure.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Infrastructure.pdb
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/CloudinaryDotNet.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Newtonsoft.Json.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/API.staticwebassets.runtime.json
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Npgsql.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/NWebsec.AspNetCore.Core.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/NWebsec.AspNetCore.Middleware.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/MailKit.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/MimeKit.dll
+C:/Users/gener/Documents/GitHub/Reactivities/API/bin/Debug/net6.0/BouncyCastle.Crypto.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/appsettings.Development.json
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/appsettings.json
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/API.staticwebassets.runtime.json
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/API
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/API.deps.json
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/API.runtimeconfig.json
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/API.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/ref/API.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/API.pdb
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/AutoMapper.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/CloudinaryDotNet.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/FluentValidation.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Humanizer.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/MailKit.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/MediatR.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/MimeKit.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Npgsql.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/NWebsec.AspNetCore.Core.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/NWebsec.AspNetCore.Middleware.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/BouncyCastle.Crypto.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Application.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Domain.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Infrastructure.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Persistence.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Application.pdb
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Infrastructure.pdb
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Domain.pdb
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/bin/Debug/net6.0/Persistence.pdb
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/API.csproj.AssemblyReference.cache
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/API.AssemblyInfoInputs.cache
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/API.AssemblyInfo.cs
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/API.csproj.CoreCompileInputs.cache
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/API.MvcApplicationPartsAssemblyInfo.cs
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/API.MvcApplicationPartsAssemblyInfo.cache
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/staticwebassets.build.json
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/staticwebassets.development.json
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/scopedcss/bundle/API.styles.css
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/API.csproj.CopyComplete
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/API.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/ref/API.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/API.pdb
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/API/obj/Debug/net6.0/API.genruntimeconfig.cache

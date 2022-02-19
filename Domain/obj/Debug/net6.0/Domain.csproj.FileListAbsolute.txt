@@ -1,24 +1,36 @@
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\Domain\bin\Debug\net6.0\Domain.deps.json
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\Domain\bin\Debug\net6.0\Domain.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\Domain\bin\Debug\net6.0\ref\Domain.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\Domain\bin\Debug\net6.0\Domain.pdb
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\Domain\obj\Debug\net6.0\ref\Domain.dll
-C:\Users\gener\OneDrive\Documentos\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.pdb
-C:\Users\gener\Documents\GitHub\Reactivities\Domain\bin\Debug\net6.0\Domain.deps.json
-C:\Users\gener\Documents\GitHub\Reactivities\Domain\bin\Debug\net6.0\Domain.dll
-C:\Users\gener\Documents\GitHub\Reactivities\Domain\bin\Debug\net6.0\ref\Domain.dll
-C:\Users\gener\Documents\GitHub\Reactivities\Domain\bin\Debug\net6.0\Domain.pdb
-C:\Users\gener\Documents\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
-C:\Users\gener\Documents\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gener\Documents\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
-C:\Users\gener\Documents\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
-C:\Users\gener\Documents\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
-C:\Users\gener\Documents\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.dll
-C:\Users\gener\Documents\GitHub\Reactivities\Domain\obj\Debug\net6.0\ref\Domain.dll
-C:\Users\gener\Documents\GitHub\Reactivities\Domain\obj\Debug\net6.0\Domain.pdb
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/Domain/bin/Debug/net6.0/Domain.deps.json
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/Domain/bin/Debug/net6.0/Domain.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/Domain/bin/Debug/net6.0/ref/Domain.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/Domain/bin/Debug/net6.0/Domain.pdb
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.AssemblyInfoInputs.cache
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.AssemblyInfo.cs
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/Domain/obj/Debug/net6.0/ref/Domain.dll
+C:/Users/gener/OneDrive/Documentos/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.pdb
+C:/Users/gener/Documents/GitHub/Reactivities/Domain/bin/Debug/net6.0/Domain.deps.json
+C:/Users/gener/Documents/GitHub/Reactivities/Domain/bin/Debug/net6.0/Domain.dll
+C:/Users/gener/Documents/GitHub/Reactivities/Domain/bin/Debug/net6.0/ref/Domain.dll
+C:/Users/gener/Documents/GitHub/Reactivities/Domain/bin/Debug/net6.0/Domain.pdb
+C:/Users/gener/Documents/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
+C:/Users/gener/Documents/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/gener/Documents/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.AssemblyInfoInputs.cache
+C:/Users/gener/Documents/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.AssemblyInfo.cs
+C:/Users/gener/Documents/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache
+C:/Users/gener/Documents/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.dll
+C:/Users/gener/Documents/GitHub/Reactivities/Domain/obj/Debug/net6.0/ref/Domain.dll
+C:/Users/gener/Documents/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.pdb
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/Domain/bin/Debug/net6.0/Domain.deps.json
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/Domain/bin/Debug/net6.0/Domain.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/Domain/bin/Debug/net6.0/ref/Domain.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/Domain/bin/Debug/net6.0/Domain.pdb
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.AssemblyInfoInputs.cache
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.AssemblyInfo.cs
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/Domain/obj/Debug/net6.0/ref/Domain.dll
+/Users/bernardogeneroso/Documents/Documents - Bernardo’s MacBook Pro/GitHub/Reactivities/Domain/obj/Debug/net6.0/Domain.pdb
